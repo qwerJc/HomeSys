@@ -26,6 +26,19 @@
 		323297C9205611F7000A629F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		323297CB205611F7000A629F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		323297CC205611F7000A629F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		323297F320565815000A629F /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		323297F420565815000A629F /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		323297F520565815000A629F /* AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		323297F620565815000A629F /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		323297F720565815000A629F /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		323297F820565815000A629F /* AFSecurityPolicy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		323297F920565815000A629F /* AFSecurityPolicy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		323297FA20565815000A629F /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		323297FB20565815000A629F /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		323297FC20565815000A629F /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		323297FD20565815000A629F /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		323297FE20565815000A629F /* AFURLSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		323297FF20565815000A629F /* AFURLSessionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 		323297BC205611F7000A629F /* Camera */ = {
 			isa = PBXGroup;
 			children = (
+				323297F220565815000A629F /* AFNetworking */,
 				323297BD205611F7000A629F /* AppDelegate.h */,
 				323297BE205611F7000A629F /* AppDelegate.m */,
 				323297C0205611F7000A629F /* ViewController.h */,
@@ -69,6 +83,26 @@
 				323297CC205611F7000A629F /* main.m */,
 			);
 			path = Camera;
+			sourceTree = "<group>";
+		};
+		323297F220565815000A629F /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				323297F320565815000A629F /* AFHTTPSessionManager.h */,
+				323297F420565815000A629F /* AFHTTPSessionManager.m */,
+				323297F520565815000A629F /* AFNetworking.h */,
+				323297F620565815000A629F /* AFNetworkReachabilityManager.h */,
+				323297F720565815000A629F /* AFNetworkReachabilityManager.m */,
+				323297F820565815000A629F /* AFSecurityPolicy.h */,
+				323297F920565815000A629F /* AFSecurityPolicy.m */,
+				323297FA20565815000A629F /* AFURLRequestSerialization.h */,
+				323297FB20565815000A629F /* AFURLRequestSerialization.m */,
+				323297FC20565815000A629F /* AFURLResponseSerialization.h */,
+				323297FD20565815000A629F /* AFURLResponseSerialization.m */,
+				323297FE20565815000A629F /* AFURLSessionManager.h */,
+				323297FF20565815000A629F /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +254,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -281,7 +315,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SR4ZEKCW75;
 				INFOPLIST_FILE = Camera/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bjut.Camera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -296,7 +330,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SR4ZEKCW75;
 				INFOPLIST_FILE = Camera/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bjut.Camera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
