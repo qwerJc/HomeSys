@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import <Foundation/Foundation.h>
 #import "AFNetworking.h"
+#import "SonViewController.h"
 
 @interface ViewController ()<UIActionSheetDelegate,UIImagePickerControllerDelegate,UINavigationControllerDelegate>
 @property(nonatomic,strong) UIImagePickerController *imagePicker;
@@ -19,6 +20,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [self.view setBackgroundColor:[UIColor whiteColor]];
     
     _imagePicker = [[UIImagePickerController alloc] init];
     _imagePicker.delegate = self; //设置代理
@@ -49,6 +52,12 @@
     [btn4 addTarget:self action:@selector(onGet) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn4];
     
+    UIButton *btn5 = [[UIButton alloc] initWithFrame:CGRectMake(50, 200, 130, 80)];
+    [btn5 setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [btn5 setTitle:@"PUSH" forState:UIControlStateNormal];
+    [btn5 addTarget:self action:@selector(onPush) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn5];
+    
     _imgv = [[UIImageView alloc] initWithFrame:CGRectMake(200, 400, 200, 200)];
     [_imgv setBackgroundColor:[UIColor grayColor]];
     [self.view addSubview:_imgv];
@@ -64,6 +73,16 @@
     }
     
 }
+
+-(void)onPush{
+    SonViewController *vc = [[SonViewController alloc] init];
+    vc.modalPresentationStyle=UIModalPresentationOverCurrentContext;
+    [self setModalTransitionStyle:UIModalTransitionStyleFlipHorizontal];
+    [self presentViewController:vc animated:YES completion:nil];
+    
+    //    [self.navigationController pushViewController:vc animated:YES];
+}
+
 -(void)onAlbum{
     //NSLog(@"相册");
     _imagePicker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
@@ -81,27 +100,27 @@
 
 //http://blog.csdn.net/sinat_31177681/article/details/51433171
 -(void)onGet{
-    AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
-    manager.responseSerializer.acceptableContentTypes = [NSSet setWithObject:@"text/html"];
-
-    NSString *getVersionURL = [@"http://101.132.38.221" stringByAppendingString:@"/ReactNatieWallPage/GetVersion.php"];
-
-    [manager GET:getVersionURL parameters:nil progress:nil
-         success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-             NSLog(@"【--------------网络获取成功--------------】");
-             NSError *error;
-             NSData *jsonData = [NSJSONSerialization dataWithJSONObject:responseObject
-                                                                options:NSJSONWritingPrettyPrinted
-                                                                  error:&error];
-             NSDictionary *listDic = [NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableLeaves error:&error];
-             NSLog(@"list %@",listDic);
-             //服务器的JSBundle版本
-//             NSString *version = [[NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableLeaves error:&error] objectForKey:@"version"];
-         }
-         failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull   error) {
-             NSLog(@"【--------------网络获取错误，无变化--------------】");
-             NSLog(@"%@",error);  //这里打印错误信息
-         }];
+//    AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
+//    manager.responseSerializer.acceptableContentTypes = [NSSet setWithObject:@"text/html"];
+//
+//    NSString *getVersionURL = [@"http://101.132.38.221" stringByAppendingString:@"/ReactNatieWallPage/GetVersion.php"];
+//
+//    [manager GET:getVersionURL parameters:nil progress:nil
+//         success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+//             NSLog(@"【--------------网络获取成功--------------】");
+//             NSError *error;
+//             NSData *jsonData = [NSJSONSerialization dataWithJSONObject:responseObject
+//                                                                options:NSJSONWritingPrettyPrinted
+//                                                                  error:&error];
+//             NSDictionary *listDic = [NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableLeaves error:&error];
+//             NSLog(@"list %@",listDic);
+//             //服务器的JSBundle版本
+////             NSString *version = [[NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableLeaves error:&error] objectForKey:@"version"];
+//         }
+//         failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull   error) {
+//             NSLog(@"【--------------网络获取错误，无变化--------------】");
+//             NSLog(@"%@",error);  //这里打印错误信息
+//         }];
 }
 
 -(void)sendImg{

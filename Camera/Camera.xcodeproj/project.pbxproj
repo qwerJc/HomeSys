@@ -13,6 +13,7 @@
 		323297C7205611F7000A629F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 323297C6205611F7000A629F /* Assets.xcassets */; };
 		323297CA205611F7000A629F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323297C8205611F7000A629F /* LaunchScreen.storyboard */; };
 		323297CD205611F7000A629F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 323297CC205611F7000A629F /* main.m */; };
+		3274A45E205769A700312871 /* SonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3274A45D205769A700312871 /* SonViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,9 @@
 		323297FD20565815000A629F /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		323297FE20565815000A629F /* AFURLSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		323297FF20565815000A629F /* AFURLSessionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		3274A45C205769A700312871 /* SonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SonViewController.h; sourceTree = "<group>"; };
+		3274A45D205769A700312871 /* SonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SonViewController.m; sourceTree = "<group>"; };
+		3274A46B20579FB000312871 /* ModelLocator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ModelLocator.h; path = ../../try/GripBall/model/ModelLocator.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,9 @@
 				323297BE205611F7000A629F /* AppDelegate.m */,
 				323297C0205611F7000A629F /* ViewController.h */,
 				323297C1205611F7000A629F /* ViewController.m */,
+				3274A45C205769A700312871 /* SonViewController.h */,
+				3274A45D205769A700312871 /* SonViewController.m */,
+				3274A46B20579FB000312871 /* ModelLocator.h */,
 				323297C3205611F7000A629F /* Main.storyboard */,
 				323297C6205611F7000A629F /* Assets.xcassets */,
 				323297C8205611F7000A629F /* LaunchScreen.storyboard */,
@@ -177,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				323297C2205611F7000A629F /* ViewController.m in Sources */,
+				3274A45E205769A700312871 /* SonViewController.m in Sources */,
 				323297CD205611F7000A629F /* main.m in Sources */,
 				323297BF205611F7000A629F /* AppDelegate.m in Sources */,
 			);
