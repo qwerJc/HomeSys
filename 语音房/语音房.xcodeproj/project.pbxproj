@@ -13,10 +13,7 @@
 		32951BED20E628B9004D121E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32951BEC20E628B9004D121E /* Assets.xcassets */; };
 		32951BF020E628B9004D121E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32951BEE20E628B9004D121E /* LaunchScreen.storyboard */; };
 		32951BF320E628B9004D121E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32951BF220E628B9004D121E /* main.m */; };
-		32951BFB20E62C2C004D121E /* VideoCallListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32951BFA20E62C2C004D121E /* VideoCallListView.m */; };
 		32951BFE20E631D4004D121E /* ModelLocater.m in Sources */ = {isa = PBXBuildFile; fileRef = 32951BFD20E631D4004D121E /* ModelLocater.m */; };
-		32951C0120E633E4004D121E /* LiveRoomViedoCallListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32951C0020E633E4004D121E /* LiveRoomViedoCallListCell.m */; };
-		32951C0620E63483004D121E /* VideoCallListCellData.m in Sources */ = {isa = PBXBuildFile; fileRef = 32951C0520E63483004D121E /* VideoCallListCellData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,14 +27,8 @@
 		32951BEF20E628B9004D121E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32951BF120E628B9004D121E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32951BF220E628B9004D121E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		32951BF920E62C2C004D121E /* VideoCallListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoCallListView.h; sourceTree = "<group>"; };
-		32951BFA20E62C2C004D121E /* VideoCallListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoCallListView.m; sourceTree = "<group>"; };
 		32951BFC20E631D4004D121E /* ModelLocater.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelLocater.h; sourceTree = "<group>"; };
 		32951BFD20E631D4004D121E /* ModelLocater.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelLocater.m; sourceTree = "<group>"; };
-		32951BFF20E633E4004D121E /* LiveRoomViedoCallListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveRoomViedoCallListCell.h; sourceTree = "<group>"; };
-		32951C0020E633E4004D121E /* LiveRoomViedoCallListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveRoomViedoCallListCell.m; sourceTree = "<group>"; };
-		32951C0420E63483004D121E /* VideoCallListCellData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCallListCellData.h; sourceTree = "<group>"; };
-		32951C0520E63483004D121E /* VideoCallListCellData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCallListCellData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,11 +65,6 @@
 				32951BE420E628B7004D121E /* AppDelegate.m */,
 				32951BE620E628B7004D121E /* ViewController.h */,
 				32951BE720E628B7004D121E /* ViewController.m */,
-				32951BF920E62C2C004D121E /* VideoCallListView.h */,
-				32951BFA20E62C2C004D121E /* VideoCallListView.m */,
-				32951C0220E63483004D121E /* models */,
-				32951BFF20E633E4004D121E /* LiveRoomViedoCallListCell.h */,
-				32951C0020E633E4004D121E /* LiveRoomViedoCallListCell.m */,
 				32951BFC20E631D4004D121E /* ModelLocater.h */,
 				32951BFD20E631D4004D121E /* ModelLocater.m */,
 				32951BE920E628B7004D121E /* Main.storyboard */,
@@ -88,23 +74,6 @@
 				32951BF220E628B9004D121E /* main.m */,
 			);
 			path = "语音房";
-			sourceTree = "<group>";
-		};
-		32951C0220E63483004D121E /* models */ = {
-			isa = PBXGroup;
-			children = (
-				32951C0320E63483004D121E /* VideoCallList */,
-			);
-			path = models;
-			sourceTree = "<group>";
-		};
-		32951C0320E63483004D121E /* VideoCallList */ = {
-			isa = PBXGroup;
-			children = (
-				32951C0420E63483004D121E /* VideoCallListCellData.h */,
-				32951C0520E63483004D121E /* VideoCallListCellData.m */,
-			);
-			path = VideoCallList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,11 +147,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				32951BFE20E631D4004D121E /* ModelLocater.m in Sources */,
-				32951BFB20E62C2C004D121E /* VideoCallListView.m in Sources */,
 				32951BE820E628B7004D121E /* ViewController.m in Sources */,
 				32951BF320E628B9004D121E /* main.m in Sources */,
-				32951C0620E63483004D121E /* VideoCallListCellData.m in Sources */,
-				32951C0120E633E4004D121E /* LiveRoomViedoCallListCell.m in Sources */,
 				32951BE520E628B7004D121E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

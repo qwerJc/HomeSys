@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "VideoCallListView.h"
+
 
 @interface ViewController ()
 
@@ -19,8 +19,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    VideoCallListView *listView = [[VideoCallListView alloc] init];
-    [self.view addSubview:listView];
+//    VideoCallListView *listView = [[VideoCallListView alloc] init];
+//    [self.view addSubview:listView];
 }
 
 
