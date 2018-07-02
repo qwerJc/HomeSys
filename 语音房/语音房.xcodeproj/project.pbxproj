@@ -14,6 +14,14 @@
 		32951BF020E628B9004D121E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32951BEE20E628B9004D121E /* LaunchScreen.storyboard */; };
 		32951BF320E628B9004D121E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32951BF220E628B9004D121E /* main.m */; };
 		32951BFE20E631D4004D121E /* ModelLocater.m in Sources */ = {isa = PBXBuildFile; fileRef = 32951BFD20E631D4004D121E /* ModelLocater.m */; };
+		32AC1F0220E9BF1F003C60CA /* VoiceCallRoomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32AC1F0120E9BF1F003C60CA /* VoiceCallRoomView.m */; };
+		32AC1F0520E9C54C003C60CA /* VoiceCallRoomSeatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32AC1F0420E9C54C003C60CA /* VoiceCallRoomSeatCell.m */; };
+		32AC1F2320E9E36C003C60CA /* voice_call_room_cell_compere@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32AC1F1D20E9E36C003C60CA /* voice_call_room_cell_compere@3x.png */; };
+		32AC1F2420E9E36C003C60CA /* voice_call_room_cell_crown@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32AC1F1E20E9E36C003C60CA /* voice_call_room_cell_crown@3x.png */; };
+		32AC1F2520E9E36C003C60CA /* voice_call_room_cell_crown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32AC1F1F20E9E36C003C60CA /* voice_call_room_cell_crown@2x.png */; };
+		32AC1F2620E9E36C003C60CA /* voice_call_room_cell_compere@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32AC1F2020E9E36C003C60CA /* voice_call_room_cell_compere@2x.png */; };
+		32AC1F2720E9E36C003C60CA /* voice_call_room_cell_more@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32AC1F2120E9E36C003C60CA /* voice_call_room_cell_more@3x.png */; };
+		32AC1F2820E9E36C003C60CA /* voice_call_room_cell_more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32AC1F2220E9E36C003C60CA /* voice_call_room_cell_more@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +37,16 @@
 		32951BF220E628B9004D121E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32951BFC20E631D4004D121E /* ModelLocater.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelLocater.h; sourceTree = "<group>"; };
 		32951BFD20E631D4004D121E /* ModelLocater.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelLocater.m; sourceTree = "<group>"; };
+		32AC1F0020E9BF1F003C60CA /* VoiceCallRoomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VoiceCallRoomView.h; sourceTree = "<group>"; };
+		32AC1F0120E9BF1F003C60CA /* VoiceCallRoomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoiceCallRoomView.m; sourceTree = "<group>"; };
+		32AC1F0320E9C54C003C60CA /* VoiceCallRoomSeatCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VoiceCallRoomSeatCell.h; sourceTree = "<group>"; };
+		32AC1F0420E9C54C003C60CA /* VoiceCallRoomSeatCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoiceCallRoomSeatCell.m; sourceTree = "<group>"; };
+		32AC1F1D20E9E36C003C60CA /* voice_call_room_cell_compere@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_call_room_cell_compere@3x.png"; sourceTree = "<group>"; };
+		32AC1F1E20E9E36C003C60CA /* voice_call_room_cell_crown@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_call_room_cell_crown@3x.png"; sourceTree = "<group>"; };
+		32AC1F1F20E9E36C003C60CA /* voice_call_room_cell_crown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_call_room_cell_crown@2x.png"; sourceTree = "<group>"; };
+		32AC1F2020E9E36C003C60CA /* voice_call_room_cell_compere@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_call_room_cell_compere@2x.png"; sourceTree = "<group>"; };
+		32AC1F2120E9E36C003C60CA /* voice_call_room_cell_more@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_call_room_cell_more@3x.png"; sourceTree = "<group>"; };
+		32AC1F2220E9E36C003C60CA /* voice_call_room_cell_more@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_call_room_cell_more@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +83,8 @@
 				32951BE420E628B7004D121E /* AppDelegate.m */,
 				32951BE620E628B7004D121E /* ViewController.h */,
 				32951BE720E628B7004D121E /* ViewController.m */,
+				32AC1EFF20E9BF07003C60CA /* VoiceCallRoom */,
+				32AC1F1C20E9E36C003C60CA /* VoiceCallRoom */,
 				32951BFC20E631D4004D121E /* ModelLocater.h */,
 				32951BFD20E631D4004D121E /* ModelLocater.m */,
 				32951BE920E628B7004D121E /* Main.storyboard */,
@@ -74,6 +94,31 @@
 				32951BF220E628B9004D121E /* main.m */,
 			);
 			path = "语音房";
+			sourceTree = "<group>";
+		};
+		32AC1EFF20E9BF07003C60CA /* VoiceCallRoom */ = {
+			isa = PBXGroup;
+			children = (
+				32AC1F0020E9BF1F003C60CA /* VoiceCallRoomView.h */,
+				32AC1F0120E9BF1F003C60CA /* VoiceCallRoomView.m */,
+				32AC1F0320E9C54C003C60CA /* VoiceCallRoomSeatCell.h */,
+				32AC1F0420E9C54C003C60CA /* VoiceCallRoomSeatCell.m */,
+			);
+			path = VoiceCallRoom;
+			sourceTree = "<group>";
+		};
+		32AC1F1C20E9E36C003C60CA /* VoiceCallRoom */ = {
+			isa = PBXGroup;
+			children = (
+				32AC1F1D20E9E36C003C60CA /* voice_call_room_cell_compere@3x.png */,
+				32AC1F2020E9E36C003C60CA /* voice_call_room_cell_compere@2x.png */,
+				32AC1F1E20E9E36C003C60CA /* voice_call_room_cell_crown@3x.png */,
+				32AC1F1F20E9E36C003C60CA /* voice_call_room_cell_crown@2x.png */,
+				32AC1F2120E9E36C003C60CA /* voice_call_room_cell_more@3x.png */,
+				32AC1F2220E9E36C003C60CA /* voice_call_room_cell_more@2x.png */,
+			);
+			name = VoiceCallRoom;
+			path = "../../../语音房/VoiceCallRoom";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,9 +178,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32AC1F2720E9E36C003C60CA /* voice_call_room_cell_more@3x.png in Resources */,
 				32951BF020E628B9004D121E /* LaunchScreen.storyboard in Resources */,
+				32AC1F2420E9E36C003C60CA /* voice_call_room_cell_crown@3x.png in Resources */,
+				32AC1F2620E9E36C003C60CA /* voice_call_room_cell_compere@2x.png in Resources */,
 				32951BED20E628B9004D121E /* Assets.xcassets in Resources */,
+				32AC1F2820E9E36C003C60CA /* voice_call_room_cell_more@2x.png in Resources */,
 				32951BEB20E628B7004D121E /* Main.storyboard in Resources */,
+				32AC1F2520E9E36C003C60CA /* voice_call_room_cell_crown@2x.png in Resources */,
+				32AC1F2320E9E36C003C60CA /* voice_call_room_cell_compere@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +201,8 @@
 				32951BE820E628B7004D121E /* ViewController.m in Sources */,
 				32951BF320E628B9004D121E /* main.m in Sources */,
 				32951BE520E628B7004D121E /* AppDelegate.m in Sources */,
+				32AC1F0520E9C54C003C60CA /* VoiceCallRoomSeatCell.m in Sources */,
+				32AC1F0220E9BF1F003C60CA /* VoiceCallRoomView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

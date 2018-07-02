@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "VoiceCallRoomView.h"
 
 @interface ViewController ()
 
@@ -21,6 +21,8 @@
     
 //    VideoCallListView *listView = [[VideoCallListView alloc] init];
 //    [self.view addSubview:listView];
+    VoiceCallRoomView *viewVoiceRoom = [[VoiceCallRoomView alloc] init];
+    [self.view addSubview:viewVoiceRoom];
 }
 
 
