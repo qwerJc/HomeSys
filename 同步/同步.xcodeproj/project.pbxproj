@@ -15,6 +15,7 @@
 		3237A48320F2457E00347227 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3237A48120F2457E00347227 /* LaunchScreen.storyboard */; };
 		3237A48E20F2457E00347227 /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3237A48D20F2457E00347227 /* __Tests.m */; };
 		3237A49920F2457E00347227 /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3237A49820F2457E00347227 /* __UITests.m */; };
+		3238022C20F3620B0099DFB6 /* VideoCallRoomSpeakingAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3238022A20F3620A0099DFB6 /* VideoCallRoomSpeakingAnimationView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		3237A49420F2457E00347227 /* 同步UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "同步UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3237A49820F2457E00347227 /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
 		3237A49A20F2457E00347227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3238022A20F3620A0099DFB6 /* VideoCallRoomSpeakingAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCallRoomSpeakingAnimationView.m; sourceTree = "<group>"; };
+		3238022B20F3620A0099DFB6 /* VideoCallRoomSpeakingAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCallRoomSpeakingAnimationView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				3237A47720F2457E00347227 /* AppDelegate.m */,
 				3237A47920F2457E00347227 /* ViewController.h */,
 				3237A47A20F2457E00347227 /* ViewController.m */,
+				3238022B20F3620A0099DFB6 /* VideoCallRoomSpeakingAnimationView.h */,
+				3238022A20F3620A0099DFB6 /* VideoCallRoomSpeakingAnimationView.m */,
 				3237A47C20F2457E00347227 /* Main.storyboard */,
 				3237A47F20F2457E00347227 /* Assets.xcassets */,
 				3237A48120F2457E00347227 /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3238022C20F3620B0099DFB6 /* VideoCallRoomSpeakingAnimationView.m in Sources */,
 				3237A47B20F2457E00347227 /* ViewController.m in Sources */,
 				3237A47820F2457E00347227 /* AppDelegate.m in Sources */,
 				3237A47520F2457E00347227 /* main.m in Sources */,
@@ -516,6 +522,7 @@
 				3237A49F20F2457E00347227 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3237A4A020F2457E00347227 /* Build configuration list for PBXNativeTarget "同步Tests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +531,7 @@
 				3237A4A220F2457E00347227 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3237A4A320F2457E00347227 /* Build configuration list for PBXNativeTarget "同步UITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +540,7 @@
 				3237A4A520F2457E00347227 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

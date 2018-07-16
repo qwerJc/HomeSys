@@ -130,13 +130,24 @@ static NSInteger const kRecelicatorCount = 3;
     
     //////////////////////////////////////////////////////////////////
     CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:@"transform.scale"];
+//    animation.fromValue = @(maxScale);
+//    animation.toValue = @(1);
     animation.fromValue = @(1);
     animation.toValue = @(maxScale);
     animation.duration = kAnimationDuraction;
     animation.repeatCount = MAXFLOAT;
-//    animation.removedOnCompletion = NO;
-//    animation.fillMode = kCAFillModeBoth;
+    animation.removedOnCompletion = NO;
+    animation.fillMode = kCAFillModeBoth;
     [_layerAnimation addAnimation:animation forKey:@"scale"];
+    
+    CABasicAnimation *animationOpacity = [CABasicAnimation animationWithKeyPath:@"opacity"];
+    animationOpacity.fromValue = @(1);
+    animationOpacity.toValue = @(0.);
+    animationOpacity.duration = kAnimationDuraction;
+    animationOpacity.repeatCount = MAXFLOAT;
+    animationOpacity.removedOnCompletion = NO;
+    animationOpacity.fillMode = kCAFillModeBoth;
+    [_layerAnimation addAnimation:animationOpacity forKey:@"opacity"];
 }
 
 - (void)stopAnimation {

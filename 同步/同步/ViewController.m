@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import "VideoCallRoomSpeakingAnimationView.h"
-#import "tem.h"
 
 @interface ViewController ()
 
@@ -20,18 +19,32 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    VideoCallRoomSpeakingAnimationView *amView = [[VideoCallRoomSpeakingAnimationView alloc] initWithFrame:CGRectMake(100, 100, 150, 150)];
-    [amView setLayerWidth:160];
+    VideoCallRoomSpeakingAnimationView *amView = [[VideoCallRoomSpeakingAnimationView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+//    [amView setLayerWidth:120];
+    [amView setLayerWidth:80];
     [amView setLayerColor:[UIColor redColor]];
     [amView startAnimation];
     [self.view addSubview:amView];
     
-    tem *view1 = [[tem alloc] initWithFrame:CGRectMake(200, 300, 100, 100)];
-    [self.view addSubview:view1];
-    
     [self.view setBackgroundColor:[UIColor orangeColor]];
+    
+    UIButton *btn1 = [[UIButton alloc] initWithFrame:CGRectMake(200, 200, 100, 100)];
+    [btn1 setBackgroundColor:[UIColor redColor]];
+    [btn1 addTarget:self action:@selector(onBtn1) forControlEvents:UIControlEventTouchUpInside];
+    [btn1 setAlpha:0.1];
+    [self.view addSubview:btn1];
+    
+    NSMutableDictionary *dic = [[NSMutableDictionary alloc] initWithCapacity:0];
+    [dic setValue:@"qwerew" forKey:@"1"];
+    [dic setValue:@"zzzzzz" forKey:@"2"];
+    
+    NSLog(@"%@",dic);
+    [dic setValue:@"ccc111" forKey:@"1"];
+    NSLog(@"%@",dic);
 }
-
+-(void)onBtn1{
+    NSLog(@"weqr");
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
