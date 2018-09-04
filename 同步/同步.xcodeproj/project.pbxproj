@@ -16,6 +16,8 @@
 		3237A48E20F2457E00347227 /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3237A48D20F2457E00347227 /* __Tests.m */; };
 		3237A49920F2457E00347227 /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3237A49820F2457E00347227 /* __UITests.m */; };
 		3238022C20F3620B0099DFB6 /* VideoCallRoomSpeakingAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3238022A20F3620A0099DFB6 /* VideoCallRoomSpeakingAnimationView.m */; };
+		3244A5432137B2C70021C46C /* SonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3244A5422137B2C70021C46C /* SonViewController.m */; };
+		3244A5462137C97B0021C46C /* Son2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3244A5452137C97B0021C46C /* Son2ViewController.m */; };
 		326623DF2109711B004CCA75 /* Bird.png in Resources */ = {isa = PBXBuildFile; fileRef = 326623DE2109711B004CCA75 /* Bird.png */; };
 		326623E42109778E004CCA75 /* Bird2.png in Resources */ = {isa = PBXBuildFile; fileRef = 326623E02109778D004CCA75 /* Bird2.png */; };
 		326623E62109778E004CCA75 /* Bird4.png in Resources */ = {isa = PBXBuildFile; fileRef = 326623E22109778E004CCA75 /* Bird4.png */; };
@@ -61,6 +63,10 @@
 		3237A49A20F2457E00347227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3238022A20F3620A0099DFB6 /* VideoCallRoomSpeakingAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCallRoomSpeakingAnimationView.m; sourceTree = "<group>"; };
 		3238022B20F3620A0099DFB6 /* VideoCallRoomSpeakingAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCallRoomSpeakingAnimationView.h; sourceTree = "<group>"; };
+		3244A5412137B2C70021C46C /* SonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SonViewController.h; sourceTree = "<group>"; };
+		3244A5422137B2C70021C46C /* SonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SonViewController.m; sourceTree = "<group>"; };
+		3244A5442137C97B0021C46C /* Son2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Son2ViewController.h; sourceTree = "<group>"; };
+		3244A5452137C97B0021C46C /* Son2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Son2ViewController.m; sourceTree = "<group>"; };
 		326623DE2109711B004CCA75 /* Bird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bird.png; sourceTree = "<group>"; };
 		326623E02109778D004CCA75 /* Bird2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bird2.png; sourceTree = "<group>"; };
 		326623E22109778E004CCA75 /* Bird4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bird4.png; sourceTree = "<group>"; };
@@ -129,6 +135,10 @@
 				3237A47720F2457E00347227 /* AppDelegate.m */,
 				3237A47920F2457E00347227 /* ViewController.h */,
 				3237A47A20F2457E00347227 /* ViewController.m */,
+				3244A5412137B2C70021C46C /* SonViewController.h */,
+				3244A5422137B2C70021C46C /* SonViewController.m */,
+				3244A5442137C97B0021C46C /* Son2ViewController.h */,
+				3244A5452137C97B0021C46C /* Son2ViewController.m */,
 				326A094520FD9EFE00728F89 /* temModel.h */,
 				326A094620FD9EFE00728F89 /* temModel.m */,
 				3238022B20F3620A0099DFB6 /* VideoCallRoomSpeakingAnimationView.h */,
@@ -313,6 +323,8 @@
 				3238022C20F3620B0099DFB6 /* VideoCallRoomSpeakingAnimationView.m in Sources */,
 				3237A47B20F2457E00347227 /* ViewController.m in Sources */,
 				3237A47820F2457E00347227 /* AppDelegate.m in Sources */,
+				3244A5462137C97B0021C46C /* Son2ViewController.m in Sources */,
+				3244A5432137B2C70021C46C /* SonViewController.m in Sources */,
 				3237A47520F2457E00347227 /* main.m in Sources */,
 				326A094720FD9EFE00728F89 /* temModel.m in Sources */,
 			);

@@ -7,15 +7,24 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
-
+@property (strong, nonatomic) UINavigationController *navigationController;
 @end
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    ViewController *vc = [[ViewController alloc] init];
+    self.navigationController = [[UINavigationController alloc] initWithRootViewController:vc];
+    self.navigationController.interactivePopGestureRecognizer.enabled = NO;
+    
+    self.window = [[UIWindow alloc] init];
+    [self.window makeKeyWindow];
+    [self.window setFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = self.navigationController;
     // Override point for customization after application launch.
     return YES;
 }
