@@ -7,18 +7,16 @@
 //
 
 #import "ViewController.h"
-#import "VideoCallRoomSpeakingAnimationView.h"
-#import "temModel.h"
-#import "SonViewController.h"
-#import "Son2ViewController.h"
+#import "CollectionViewItem.h"
 
-#define VoiceCallRoomAnchorRight 5||1
+#import "001ViewController.h"
+#import "ViewController003.h"
 
-@interface ViewController ()<tryDelegate>
-@property (strong, nonatomic) UIImageView *imgvBird2;
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 
-@property (strong, nonatomic) SonViewController *sonVC1;
-@property (strong, nonatomic) Son2ViewController *son2;
+@interface ViewController () <UICollectionViewDelegate,UICollectionViewDataSource>
+@property (strong, nonatomic) NSArray *arrData;
 @end
 
 @implementation ViewController
@@ -26,166 +24,76 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.arrData = @[@"CollectionView",@"TableView",@"倒计时"];
     [self.view setBackgroundColor:[UIColor whiteColor]];
     
-    UIButton *btn1 = [[UIButton alloc] initWithFrame:CGRectMake(50, 100, 100, 50)];
-    [btn1 setBackgroundColor:[UIColor greenColor]];
-    [btn1 setTitle:@"Son1" forState:UIControlStateNormal];
-    [btn1 addTarget:self action:@selector(onBtn1Action) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:btn1];
+    //创建一个layout布局类
+    UICollectionViewFlowLayout * layout = [[UICollectionViewFlowLayout alloc]init];
+    //设置布局方向为垂直流布局
+    layout.scrollDirection = UICollectionViewScrollDirectionVertical;
+    //设置每个item的大小为100*100
+    layout.itemSize = CGSizeMake(100, 100);
+
+    layout.minimumInteritemSpacing = 10;
     
-    UIButton *btn2 = [[UIButton alloc] initWithFrame:CGRectMake(200, 100, 100, 50)];
-    [btn2 setBackgroundColor:[UIColor blueColor]];
-    [btn2 setTitle:@"Son2" forState:UIControlStateNormal];
-    [btn2 addTarget:self action:@selector(onBtn2Action) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:btn2];
+    //创建collectionView 通过一个布局策略layout来创建
+    UICollectionView * collect = [[UICollectionView alloc]initWithFrame:CGRectMake(0, 64.f, SCREEN_WIDTH, SCREEN_HEIGHT-64) collectionViewLayout:layout];
+    collect.backgroundColor = [UIColor grayColor];
+    //代理设置
+    collect.delegate=self;
+    collect.dataSource=self;
+    //注册item类型 这里使用系统的类型
+    [collect registerClass:[CollectionViewItem class] forCellWithReuseIdentifier:@"MainViewItem"];
     
-    UIButton *btn3 = [[UIButton alloc] initWithFrame:CGRectMake(150, 300, 100, 50)];
-    [btn3 setBackgroundColor:[UIColor greenColor]];
-    [btn3 setTitle:@"Clear" forState:UIControlStateNormal];
-    [btn3 addTarget:self action:@selector(onBtn3Action) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:btn3];
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    /////////////////////////////////////////////////////////////////////
-    NSString *str1 = @"23";
-    NSString *str2 = @"3";
-    if (str1>str2) {
-        NSLog(@"str1 > str2");
-    }else if (str1<str2){
-        NSLog(@"str1 < str2");
-    }else {
-        NSLog(@"str1 == str2");
-    }
-//    [self judge];
-    
-//    NSMutableArray *arr = [NSMutableArray arrayWithCapacity:0];
-//    for (int i = 0; i<100; i++) {
-//        int value = arc4random() % 543;
-//        [arr addObject:[NSString stringWithFormat:@"%d",value]];
-//    }
-//
-//    [self jcInsert:arr];
-//    NSLog(@"%@",arr);
-//    NSLog(@"end");
-    
-    UIView *view = [[UIView alloc] init];
-    [view setFrame:CGRectMake(0, 64, 100, 100)];
-    view.layer.anchorPoint = CGPointZero;
-    [view setBackgroundColor:[UIColor redColor]];
-//    [self.view addSubview:view];
+    [self.view addSubview:collect];
 }
 
-- (void)onBtn1Action{
-    if (!_sonVC1) {
-        _sonVC1 = [[SonViewController alloc] init];
+//返回每个item
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
+    //    6.0后使用如下的方法直接从注册的cell类获取创建，如果没有注册 会崩溃
 
-    }
-    [self.navigationController pushViewController:_sonVC1 animated:YES];
-}
-
-- (void)onBtn2Action {
-    Son2ViewController *son2 = [[Son2ViewController alloc] init];
-
-    _sonVC1.delegate = son2;
-    [self.navigationController pushViewController:son2 animated:NO];
-
-    [self.navigationController pushViewController:_sonVC1 animated:YES];
-    
-    /////****************************************************************************
-    
-//    if (!_son2) {
-//        _son2 = [[Son2ViewController alloc] init];
-//        _sonVC1.delegate = _son2;
-//    }
-//
-//    [self.navigationController pushViewController:_sonVC1 animated:YES];
-}
-
-- (void)onBtn3Action {
-    _son2 = nil;
-}
-
-- (void)judge{
-    NSMutableArray *arr = [NSMutableArray arrayWithCapacity:0];
-    for (int i = 0; i<100; i++) {
-        int value = arc4random() % 543;
-        [arr addObject:[NSString stringWithFormat:@"%d",value]];
+    CollectionViewItem *seatCell = [collectionView dequeueReusableCellWithReuseIdentifier:@"MainViewItem" forIndexPath:indexPath];
+    seatCell.backgroundColor = [UIColor colorWithRed:arc4random()%255/255.0 green:arc4random()%255/255.0 blue:arc4random()%255/255.0 alpha:1];
+    if (indexPath.row < _arrData.count) {
+        [seatCell setTitle:_arrData[indexPath.row] andID:[NSString stringWithFormat:@"%ld",(long)indexPath.row]];
     }
     
-    NSLog(@"****************【start】****************");
-    [self jcInsert2:arr];
-    NSLog(@"****************【end】****************");
+    return seatCell;
+}
+
+//返回分区个数
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView{
+    return 1;
+}
+
+//返回每个分区的item个数
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
+    return 50;
+}
+
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
+//    ViewController003 *vc = [[ViewController003 alloc] init];
     
-    for (int i = 1;i<[arr count];i++) {
-        if(arr[i] < arr[i-1]){
-            NSLog(@"Error!!!!!");
-            return;
-        }else{
-            NSLog(@"%@%@",arr[i],arr[i-1]);
-            NSLog(@"%d",([arr[i] intValue] - [arr[i-1] intValue]));
+    switch (indexPath.row) {
+        case 0:{
+            _01ViewController *vc = [[_01ViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
         }
-    }
-    NSLog(@"Success : ==================================");
-    NSLog(@"%@",arr);
-}
-
-- (void)jcInsert:(NSMutableArray *)array{
-    for (int i = 1; i < [array count]; i++) {
-        for (int j = 0; j < [array count]; j++) {
-            if (array[i] <= array[j]) {
-                [array insertObject:array[i] atIndex:j];
-                [array removeObjectAtIndex:i+1];
-            }
+            
+        case 2:{
+            ViewController003 *vc = [[ViewController003 alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
         }
+
+        default:
+            break;
     }
 }
-
-// offical
-- (void)jcInsert2:(NSMutableArray *)array{
-    for (int i = 1; i< array.count; i++) {
-        id get = array[i];
-        int j = i-1;
-        while (j>=0 && array[j]>get) {
-            array[j+1] = array[j];
-            j = j - 1;
-        }
-        array[j+1] = get;
-    }
-}
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-- (NSInteger )getMaxValue:(NSArray <NSString *>*)arr{
-    NSInteger max = [[arr firstObject] integerValue];
-    for (NSString *item in arr) {
-        if (max > [item integerValue]) {
-            max = [item integerValue];
-        }
-    }
-    return max;
-}
-- (void)sayTemString {
-    NSLog(@"这是父View实现了代理");
 }
 
 @end

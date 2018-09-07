@@ -10,7 +10,5 @@
 
 @interface ViewController : UIViewController
 
-- (NSInteger )getMaxValue:(NSArray <NSString *>*)arr;
-
 @end
 
