@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate+JJC.h"
+#import "LiveRoomTruthOrBraveView.h"
 
 @implementation AppDelegate (JJC)
 -(void)jjc_applicationDidFinishLaunching{
@@ -21,7 +22,13 @@
                                                object:nil];
 }
 
--(void)jjc_liveRoomWillSetupNotificationAction:(NSNotification *)notification{
-    
+- (void)jjc_liveRoomWillSetupNotificationAction:(NSNotification *)notification{
+    [self addTruthOrBraveView];
 }
+
+- (void)addTruthOrBraveView {
+    LiveRoomTruthOrBraveView *viewBrave = [[LiveRoomTruthOrBraveView alloc] init];
+    [self addFixedViewToFullScreenRoom:viewBrave withHighDisplayPriority:YES];
+}
+
 @end

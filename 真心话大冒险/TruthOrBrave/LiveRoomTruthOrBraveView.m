@@ -7,7 +7,7 @@
 //
 
 #import "LiveRoomTruthOrBraveView.h"
-#import <ModelLocator.h>
+#import "ModelLocator.h"
 #import "LiveRoomTruthOrBraveQuestionView.h"
 #import "LiveRoomTruthOrBraveCountdownTimerView.h"
 
@@ -48,6 +48,23 @@
     
 }
 
+- (void)changeState:(EnumRoomTruthOrBraveStatus)type {
+    switch (type) {
+        case EnumRoomTruthOrBraveStatusPre:
+            [self.imgvPrepareBG setHidden:NO];
+            break;
+        case EnumRoomTruthOrBraveStatusWait:
+            [self.imgvPrepareBG setHidden:YES];
+            break;
+        case EnumRoomTruthOrBraveStatusVote:
+            [self.questionView setHidden:NO];
+            [self.imgvPrepareBG setHidden:YES];
+            break;
+        case EnumRoomTruthOrBraveStatusEnd:
+            [self.imgvPrepareBG setHidden:YES];
+            break;
+    }
+}
 #pragma mark - lazyload
 - (LiveRoomTruthOrBraveQuestionView *)questionView {
     if (!_questionView) {
@@ -74,13 +91,24 @@
 
 - (UIImageView *)imgvPrepareBG {
     if (!_imgvPrepareBG) {
-        _imgvPrepareBG = [[UIImageView alloc] initWithImage:<#(nullable UIImage *)#>]
+        _imgvPrepareBG = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"live_room_truthOrBrave_prepare_BG.png"]];
+        _imgvPrepareBG.center = CGPointMake(SCREEN_WIDTH/2, CGRectGetHeight(self.frame)/2);
+        _imgvPrepareBG.userInteractionEnabled = YES;
+        
+        UIButton *btnStartGame = [[UIButton alloc] initWithFrame:CGRectMake((CGRectGetWidth(_imgvPrepareBG.frame)-190)/2,
+                                                                            CGRectGetHeight(_imgvPrepareBG.frame)-40,
+                                                                            190,
+                                                                            40)];
+        [btnStartGame addTarget:self action:@selector(onStartGameAction) forControlEvents:UIControlEventTouchUpInside];
+        [_imgvPrepareBG addSubview:btnStartGame];
     }
+    return _imgvPrepareBG;
 }
 
 #pragma mark - Btn Action
 - (void)onStartGameAction {
-    
+    NSLog(@"开始游戏");
+    [self changeState:EnumRoomTruthOrBraveStatusVote];
 }
 
 @end

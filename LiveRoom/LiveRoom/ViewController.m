@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "ModelLocator.h"
+#import "AppDelegate+JJC.h"
 
 @interface ViewController ()
 
@@ -18,15 +19,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [self.view setBackgroundColor:[UIColor whiteColor]];
     
-    UIImageView *imgv = [[UIImageView alloc] initWithFrame:CGRectMake(0,(SCREEN_HEIGHT - floor(SCREEN_WIDTH/9*16) )/2,SCREEN_WIDTH,floor(SCREEN_WIDTH/9*16))];
-    [imgv setImage:[UIImage imageNamed:@"2(1).jpg"]];
-    imgv.contentMode = UIViewContentModeScaleAspectFit;
-    [imgv setBackgroundColor:[UIColor redColor]];
-    [self.view addSubview:imgv];
+    UIButton *btn1 = [[UIButton alloc] initWithFrame:CGRectMake(20, 84, 160, 64)];
+    [btn1 setBackgroundColor:[UIColor orangeColor]];
+    [btn1 setTitle:@"进入看直播房间" forState:UIControlStateNormal];
+    [btn1 addTarget:self action:@selector(onBtn1Action) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn1];
     
 }
 
+#pragma mark - Btn Action
+- (void)onBtn1Action {
+    [[NSNotificationCenter defaultCenter] postNotificationName:NOTIFICATIONS_ROOM_WILL_SETUP object:nil];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

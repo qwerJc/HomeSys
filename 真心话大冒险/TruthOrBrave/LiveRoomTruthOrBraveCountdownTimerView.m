@@ -29,8 +29,6 @@
 }
 
 - (void)createUI{
-    self.backgroundColor = [UIColor blueColor];
-    
     _countdownTime = 90;
      _timer = [NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(countdownTimer) userInfo:nil repeats:YES];
 }

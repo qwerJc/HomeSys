@@ -7,9 +7,12 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "AppDelegate+JJC.h"
 
 @interface AppDelegate ()
-
+@property (strong, nonatomic) UINavigationController *navigationController;
+@property (strong, nonatomic) ViewController *vc;
 @end
 
 @implementation AppDelegate
@@ -17,6 +20,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [self jjc_applicationDidFinishLaunching];
+    
+    self.vc = [[ViewController alloc] init];
+    self.navigationController = [[UINavigationController alloc] initWithRootViewController:self.vc];
+    
+    self.window = [UIWindow new];
+    [self.window makeKeyAndVisible];
+    [self.window setFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = self.navigationController;
+    
     return YES;
 }
 
@@ -50,9 +64,10 @@
 #pragma mark - Room Tools
 /** 添加 固定视图 至秀场全屏直播、发直播房间 */
 - (void)addFixedViewToFullScreenRoom:(UIView *)view withHighDisplayPriority:(BOOL)isHighPriority {
-    if (isHighPriority) {
-        
-    }
+    UIViewController *temVC = [[UIViewController alloc] init];
+    temVC.view.backgroundColor = [UIColor whiteColor];
+    [temVC.view addSubview:view];
+    [self.navigationController pushViewController:temVC animated:isHighPriority];
 }
 
 @end
