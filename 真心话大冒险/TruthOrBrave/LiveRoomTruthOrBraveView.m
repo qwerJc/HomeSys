@@ -26,7 +26,7 @@
     frame.origin.x = 0;
     frame.origin.y = 340;
     frame.size.width = SCREEN_WIDTH;
-    frame.size.height = 70;
+    frame.size.height = 115;
     
     self = [super initWithFrame:frame];
     if (self) {
@@ -46,21 +46,34 @@
     
     [self addSubview:self.imgvPrepareBG];
     
+    [self changeState:EnumRoomTruthOrBraveStatusPre];
 }
 
 - (void)changeState:(EnumRoomTruthOrBraveStatus)type {
     switch (type) {
         case EnumRoomTruthOrBraveStatusPre:
             [self.imgvPrepareBG setHidden:NO];
-            break;
-        case EnumRoomTruthOrBraveStatusWait:
-            [self.imgvPrepareBG setHidden:YES];
+            
+            [self.questionView setHidden:YES];
+            [self.countdownTimerView setHidden:YES];
             break;
         case EnumRoomTruthOrBraveStatusVote:
             [self.questionView setHidden:NO];
+            [self.countdownTimerView setHidden:NO];
+            [self.countdownTimerView start];
+            
+            [self.imgvPrepareBG setHidden:YES];
+            break;
+        case EnumRoomTruthOrBraveStatusWait:
+            [self.questionView setHidden:NO];
+            [self.countdownTimerView setHidden:NO];
+            
             [self.imgvPrepareBG setHidden:YES];
             break;
         case EnumRoomTruthOrBraveStatusEnd:
+            [self.questionView setHidden:NO];
+            [self.countdownTimerView setHidden:NO];
+            
             [self.imgvPrepareBG setHidden:YES];
             break;
     }
@@ -80,18 +93,9 @@
     return _countdownTimerView;
 }
 
-//- (UIButton *)btnStart {
-//    if (!_btnStart) {
-//        _btnStart = [[UIButton alloc] initWithFrame:CGRectMake((SCREEN_WIDTH-kTruthOrBraveViewBtnStartWidth)/2, CGRectGetHeight(self.frame) - kTruthOrBraveViewBtnStartHeight, kTruthOrBraveViewBtnStartWidth, kTruthOrBraveViewBtnStartHeight)];
-//        [_btnStart setBackgroundColor:[UIColor yellowColor]];
-//        [_btnStart addTarget:self action:@selector(onStartGameAction) forControlEvents:UIControlEventTouchUpInside];
-//    }
-//    return _btnStart;
-//}
-
 - (UIImageView *)imgvPrepareBG {
     if (!_imgvPrepareBG) {
-        _imgvPrepareBG = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"live_room_truthOrBrave_prepare_BG.png"]];
+        _imgvPrepareBG = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"live_room_truthOrBrave_prepare_bg.png"]];
         _imgvPrepareBG.center = CGPointMake(SCREEN_WIDTH/2, CGRectGetHeight(self.frame)/2);
         _imgvPrepareBG.userInteractionEnabled = YES;
         

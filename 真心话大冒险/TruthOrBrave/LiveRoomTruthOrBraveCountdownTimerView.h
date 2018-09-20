@@ -8,6 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
+typedef NS_ENUM(NSInteger, EnumRoomTruthOrBraveCountdownTimerStatus) {
+    EnumRoomTruthOrBraveCountdownTimerStatusStart = 1,           // 倒计时开始
+    EnumRoomTruthOrBraveCountdownTimerStatusEnd,                 // 倒计时结束
+};
+
 @interface LiveRoomTruthOrBraveCountdownTimerView : UIView
+
+/**
+ 开始倒计时
+ */
+- (void)start;
 
 @end

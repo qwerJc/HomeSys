@@ -13,8 +13,8 @@ static NSInteger const kTruthOrBraveViewBtnStartHeight = 35;
 
 typedef NS_ENUM(NSInteger, EnumRoomTruthOrBraveStatus) {
     EnumRoomTruthOrBraveStatusPre = 1,              // 开始前准备阶段
+    EnumRoomTruthOrBraveStatusWait,                 // 等待惩罚阶段
     EnumRoomTruthOrBraveStatusVote,                 // 投票阶段
-    EnumRoomTruthOrBraveStatusWait,                 // 等待答题阶段
     EnumRoomTruthOrBraveStatusEnd,                  // 游戏结束阶段
 };
 

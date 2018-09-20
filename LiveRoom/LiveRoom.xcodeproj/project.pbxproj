@@ -7,6 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32076E0D21537C7F00EB690D /* live_room_truthOrBrave_prepare_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32076DEC21537C7F00EB690D /* live_room_truthOrBrave_prepare_bg@2x.png */; };
+		32076E0E21537C7F00EB690D /* live_room_truthOrBrave_title@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32076DED21537C7F00EB690D /* live_room_truthOrBrave_title@3x.png */; };
+		32076E0F21537C7F00EB690D /* live_room_truthOrBrave_btn_vote_pink_h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32076DEE21537C7F00EB690D /* live_room_truthOrBrave_btn_vote_pink_h@3x.png */; };
+		32076E1021537C7F00EB690D /* live_room_truthOrBrave_btn_vote_pink_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32076DEF21537C7F00EB690D /* live_room_truthOrBrave_btn_vote_pink_h@2x.png */; };
+		32076E1121537C7F00EB690D /* live_room_truthOrBrave_title@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32076DF021537C7F00EB690D /* live_room_truthOrBrave_title@2x.png */; };
+		32076E1221537C7F00EB690D /* live_room_truthOrBrave_prepare_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32076DF121537C7F00EB690D /* live_room_truthOrBrave_prepare_bg@3x.png */; };
+		32076E1321537C7F00EB690D /* live_room_truthOrBrave_btn_vote_pink_n@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32076DF221537C7F00EB690D /* live_room_truthOrBrave_btn_vote_pink_n@3x.png */; };
+		32076E1421537C7F00EB690D /* live_room_video_call_list_topBar_success_BG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32076DF521537C7F00EB690D /* live_room_video_call_list_topBar_success_BG@2x.png */; };
+		32076E1521537C7F00EB690D /* live_room_video_call_list_cell_btn_refuse_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32076DF621537C7F00EB690D /* live_room_video_call_list_cell_btn_refuse_n@2x.png */; };
+		32076E1621537C7F00EB690D /* live_room_video_call_list_cell_btn_agree_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32076DF721537C7F00EB690D /* live_room_video_call_list_cell_btn_agree_n@2x.png */; };
+		32076E1721537C7F00EB690D /* live_room_video_call_list_topBar_wait_BG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32076DF821537C7F00EB690D /* live_room_video_call_list_topBar_wait_BG@2x.png */; };
+		32076E1821537C7F00EB690D /* live_room_video_call_list_cell_btn_refuse_n@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32076DFA21537C7F00EB690D /* live_room_video_call_list_cell_btn_refuse_n@3x.png */; };
+		32076E1921537C7F00EB690D /* live_room_video_call_list_topBar_success_BG@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32076DFB21537C7F00EB690D /* live_room_video_call_list_topBar_success_BG@3x.png */; };
+		32076E1A21537C7F00EB690D /* live_room_video_call_list_cell_btn_agree_n@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32076DFC21537C7F00EB690D /* live_room_video_call_list_cell_btn_agree_n@3x.png */; };
+		32076E1B21537C7F00EB690D /* live_room_video_call_list_topBar_wait_BG@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32076DFD21537C7F00EB690D /* live_room_video_call_list_topBar_wait_BG@3x.png */; };
+		32076E1C21537C7F00EB690D /* live_room_truthOrBrave_progressBar_pink@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32076DFE21537C7F00EB690D /* live_room_truthOrBrave_progressBar_pink@2x.png */; };
+		32076E1D21537C7F00EB690D /* live_room_truthOrBrave_progressBar_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32076DFF21537C7F00EB690D /* live_room_truthOrBrave_progressBar_blue@2x.png */; };
+		32076E1E21537C7F00EB690D /* live_room_truthOrBrave_name_blue_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32076E0021537C7F00EB690D /* live_room_truthOrBrave_name_blue_bg@2x.png */; };
+		32076E1F21537C7F00EB690D /* live_room_truthOrBrave_countdown_timer_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32076E0121537C7F00EB690D /* live_room_truthOrBrave_countdown_timer_bg@3x.png */; };
+		32076E2021537C7F00EB690D /* live_room_truthOrBrave_countdown_timer_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32076E0221537C7F00EB690D /* live_room_truthOrBrave_countdown_timer_bg@2x.png */; };
+		32076E2121537C7F00EB690D /* live_room_truthOrBrave_progressBar_blue@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32076E0321537C7F00EB690D /* live_room_truthOrBrave_progressBar_blue@3x.png */; };
+		32076E2221537C7F00EB690D /* live_room_truthOrBrave_name_blue_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32076E0421537C7F00EB690D /* live_room_truthOrBrave_name_blue_bg@3x.png */; };
+		32076E2321537C7F00EB690D /* live_room_truthOrBrave_progressBar_pink@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32076E0521537C7F00EB690D /* live_room_truthOrBrave_progressBar_pink@3x.png */; };
+		32076E2421537C7F00EB690D /* live_room_truthOrBrave_btn_vote_pink_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32076E0621537C7F00EB690D /* live_room_truthOrBrave_btn_vote_pink_n@2x.png */; };
+		32076E2521537C7F00EB690D /* live_room_truthOrBrave_btn_vote_blue_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32076E0721537C7F00EB690D /* live_room_truthOrBrave_btn_vote_blue_h@2x.png */; };
+		32076E2621537C7F00EB690D /* live_room_truthOrBrave_btn_vote_blue_h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32076E0821537C7F00EB690D /* live_room_truthOrBrave_btn_vote_blue_h@3x.png */; };
+		32076E2721537C7F00EB690D /* live_room_truthOrBrave_btn_vote_blue_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32076E0921537C7F00EB690D /* live_room_truthOrBrave_btn_vote_blue_n@2x.png */; };
+		32076E2821537C7F00EB690D /* live_room_truthOrBrave_name_pink_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32076E0A21537C7F00EB690D /* live_room_truthOrBrave_name_pink_bg@3x.png */; };
+		32076E2921537C7F00EB690D /* live_room_truthOrBrave_name_pink_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32076E0B21537C7F00EB690D /* live_room_truthOrBrave_name_pink_bg@2x.png */; };
+		32076E2A21537C7F00EB690D /* live_room_truthOrBrave_btn_vote_blue_n@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32076E0C21537C7F00EB690D /* live_room_truthOrBrave_btn_vote_blue_n@3x.png */; };
 		3257229621085BDE00C3D85A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3257229521085BDE00C3D85A /* AppDelegate.m */; };
 		3257229921085BDE00C3D85A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3257229821085BDE00C3D85A /* ViewController.m */; };
 		3257229C21085BDE00C3D85A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3257229A21085BDE00C3D85A /* Main.storyboard */; };
@@ -20,25 +50,39 @@
 		32B22D4F2151488D00B2C140 /* LiveRoomTruthOrBraveCountdownTimerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B22D492151488C00B2C140 /* LiveRoomTruthOrBraveCountdownTimerView.m */; };
 		32B22D502151488D00B2C140 /* LiveRoomTruthOrBraveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B22D4C2151488C00B2C140 /* LiveRoomTruthOrBraveView.m */; };
 		32B22D512151488D00B2C140 /* LiveRoomTruthOrBraveQuestionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B22D4E2151488C00B2C140 /* LiveRoomTruthOrBraveQuestionView.m */; };
-		32B22D6621526DB600B2C140 /* live_room_truthOrBrave_prepare_BG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32B22D5721526DB600B2C140 /* live_room_truthOrBrave_prepare_BG@2x.png */; };
-		32B22D6721526DB600B2C140 /* live_room_truthOrBrave_title@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32B22D5821526DB600B2C140 /* live_room_truthOrBrave_title@3x.png */; };
-		32B22D6821526DB600B2C140 /* live_room_truthOrBrave_title@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32B22D5921526DB600B2C140 /* live_room_truthOrBrave_title@2x.png */; };
-		32B22D6921526DB600B2C140 /* live_room_truthOrBrave_prepare_BG@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32B22D5A21526DB600B2C140 /* live_room_truthOrBrave_prepare_BG@3x.png */; };
-		32B22D6A21526DB600B2C140 /* live_room_video_call_list_topBar_success_BG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32B22D5D21526DB600B2C140 /* live_room_video_call_list_topBar_success_BG@2x.png */; };
-		32B22D6B21526DB600B2C140 /* live_room_video_call_list_cell_btn_refuse_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32B22D5E21526DB600B2C140 /* live_room_video_call_list_cell_btn_refuse_n@2x.png */; };
-		32B22D6C21526DB600B2C140 /* live_room_video_call_list_cell_btn_agree_n@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32B22D5F21526DB600B2C140 /* live_room_video_call_list_cell_btn_agree_n@2x.png */; };
-		32B22D6D21526DB600B2C140 /* live_room_video_call_list_topBar_wait_BG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32B22D6021526DB600B2C140 /* live_room_video_call_list_topBar_wait_BG@2x.png */; };
-		32B22D6E21526DB600B2C140 /* live_room_video_call_list_cell_btn_refuse_n@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32B22D6221526DB600B2C140 /* live_room_video_call_list_cell_btn_refuse_n@3x.png */; };
-		32B22D6F21526DB600B2C140 /* live_room_video_call_list_topBar_success_BG@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32B22D6321526DB600B2C140 /* live_room_video_call_list_topBar_success_BG@3x.png */; };
-		32B22D7021526DB600B2C140 /* live_room_video_call_list_cell_btn_agree_n@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32B22D6421526DB600B2C140 /* live_room_video_call_list_cell_btn_agree_n@3x.png */; };
-		32B22D7121526DB600B2C140 /* live_room_video_call_list_topBar_wait_BG@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32B22D6521526DB600B2C140 /* live_room_video_call_list_topBar_wait_BG@3x.png */; };
-		32B22D7E2152967600B2C140 /* live_room_truthOrBrave_progressBar_pink@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32B22D7A2152967500B2C140 /* live_room_truthOrBrave_progressBar_pink@2x.png */; };
-		32B22D7F2152967600B2C140 /* live_room_truthOrBrave_progressBar_pink@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32B22D7B2152967500B2C140 /* live_room_truthOrBrave_progressBar_pink@3x.png */; };
-		32B22D802152967600B2C140 /* live_room_truthOrBrave_progressBar_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32B22D7C2152967500B2C140 /* live_room_truthOrBrave_progressBar_blue@2x.png */; };
-		32B22D812152967600B2C140 /* live_room_truthOrBrave_progressBar_blue@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32B22D7D2152967500B2C140 /* live_room_truthOrBrave_progressBar_blue@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		32076DEC21537C7F00EB690D /* live_room_truthOrBrave_prepare_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_truthOrBrave_prepare_bg@2x.png"; sourceTree = "<group>"; };
+		32076DED21537C7F00EB690D /* live_room_truthOrBrave_title@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_truthOrBrave_title@3x.png"; sourceTree = "<group>"; };
+		32076DEE21537C7F00EB690D /* live_room_truthOrBrave_btn_vote_pink_h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_truthOrBrave_btn_vote_pink_h@3x.png"; sourceTree = "<group>"; };
+		32076DEF21537C7F00EB690D /* live_room_truthOrBrave_btn_vote_pink_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_truthOrBrave_btn_vote_pink_h@2x.png"; sourceTree = "<group>"; };
+		32076DF021537C7F00EB690D /* live_room_truthOrBrave_title@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_truthOrBrave_title@2x.png"; sourceTree = "<group>"; };
+		32076DF121537C7F00EB690D /* live_room_truthOrBrave_prepare_bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_truthOrBrave_prepare_bg@3x.png"; sourceTree = "<group>"; };
+		32076DF221537C7F00EB690D /* live_room_truthOrBrave_btn_vote_pink_n@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_truthOrBrave_btn_vote_pink_n@3x.png"; sourceTree = "<group>"; };
+		32076DF521537C7F00EB690D /* live_room_video_call_list_topBar_success_BG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_video_call_list_topBar_success_BG@2x.png"; sourceTree = "<group>"; };
+		32076DF621537C7F00EB690D /* live_room_video_call_list_cell_btn_refuse_n@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_video_call_list_cell_btn_refuse_n@2x.png"; sourceTree = "<group>"; };
+		32076DF721537C7F00EB690D /* live_room_video_call_list_cell_btn_agree_n@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_video_call_list_cell_btn_agree_n@2x.png"; sourceTree = "<group>"; };
+		32076DF821537C7F00EB690D /* live_room_video_call_list_topBar_wait_BG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_video_call_list_topBar_wait_BG@2x.png"; sourceTree = "<group>"; };
+		32076DFA21537C7F00EB690D /* live_room_video_call_list_cell_btn_refuse_n@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_video_call_list_cell_btn_refuse_n@3x.png"; sourceTree = "<group>"; };
+		32076DFB21537C7F00EB690D /* live_room_video_call_list_topBar_success_BG@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_video_call_list_topBar_success_BG@3x.png"; sourceTree = "<group>"; };
+		32076DFC21537C7F00EB690D /* live_room_video_call_list_cell_btn_agree_n@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_video_call_list_cell_btn_agree_n@3x.png"; sourceTree = "<group>"; };
+		32076DFD21537C7F00EB690D /* live_room_video_call_list_topBar_wait_BG@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_video_call_list_topBar_wait_BG@3x.png"; sourceTree = "<group>"; };
+		32076DFE21537C7F00EB690D /* live_room_truthOrBrave_progressBar_pink@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_truthOrBrave_progressBar_pink@2x.png"; sourceTree = "<group>"; };
+		32076DFF21537C7F00EB690D /* live_room_truthOrBrave_progressBar_blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_truthOrBrave_progressBar_blue@2x.png"; sourceTree = "<group>"; };
+		32076E0021537C7F00EB690D /* live_room_truthOrBrave_name_blue_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_truthOrBrave_name_blue_bg@2x.png"; sourceTree = "<group>"; };
+		32076E0121537C7F00EB690D /* live_room_truthOrBrave_countdown_timer_bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_truthOrBrave_countdown_timer_bg@3x.png"; sourceTree = "<group>"; };
+		32076E0221537C7F00EB690D /* live_room_truthOrBrave_countdown_timer_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_truthOrBrave_countdown_timer_bg@2x.png"; sourceTree = "<group>"; };
+		32076E0321537C7F00EB690D /* live_room_truthOrBrave_progressBar_blue@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_truthOrBrave_progressBar_blue@3x.png"; sourceTree = "<group>"; };
+		32076E0421537C7F00EB690D /* live_room_truthOrBrave_name_blue_bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_truthOrBrave_name_blue_bg@3x.png"; sourceTree = "<group>"; };
+		32076E0521537C7F00EB690D /* live_room_truthOrBrave_progressBar_pink@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_truthOrBrave_progressBar_pink@3x.png"; sourceTree = "<group>"; };
+		32076E0621537C7F00EB690D /* live_room_truthOrBrave_btn_vote_pink_n@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_truthOrBrave_btn_vote_pink_n@2x.png"; sourceTree = "<group>"; };
+		32076E0721537C7F00EB690D /* live_room_truthOrBrave_btn_vote_blue_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_truthOrBrave_btn_vote_blue_h@2x.png"; sourceTree = "<group>"; };
+		32076E0821537C7F00EB690D /* live_room_truthOrBrave_btn_vote_blue_h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_truthOrBrave_btn_vote_blue_h@3x.png"; sourceTree = "<group>"; };
+		32076E0921537C7F00EB690D /* live_room_truthOrBrave_btn_vote_blue_n@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_truthOrBrave_btn_vote_blue_n@2x.png"; sourceTree = "<group>"; };
+		32076E0A21537C7F00EB690D /* live_room_truthOrBrave_name_pink_bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_truthOrBrave_name_pink_bg@3x.png"; sourceTree = "<group>"; };
+		32076E0B21537C7F00EB690D /* live_room_truthOrBrave_name_pink_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_truthOrBrave_name_pink_bg@2x.png"; sourceTree = "<group>"; };
+		32076E0C21537C7F00EB690D /* live_room_truthOrBrave_btn_vote_blue_n@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_truthOrBrave_btn_vote_blue_n@3x.png"; sourceTree = "<group>"; };
 		3257229121085BDE00C3D85A /* LiveRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3257229421085BDE00C3D85A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3257229521085BDE00C3D85A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -62,22 +106,6 @@
 		32B22D4C2151488C00B2C140 /* LiveRoomTruthOrBraveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveRoomTruthOrBraveView.m; sourceTree = "<group>"; };
 		32B22D4D2151488C00B2C140 /* LiveRoomTruthOrBraveCountdownTimerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveRoomTruthOrBraveCountdownTimerView.h; sourceTree = "<group>"; };
 		32B22D4E2151488C00B2C140 /* LiveRoomTruthOrBraveQuestionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveRoomTruthOrBraveQuestionView.m; sourceTree = "<group>"; };
-		32B22D5721526DB600B2C140 /* live_room_truthOrBrave_prepare_BG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_truthOrBrave_prepare_BG@2x.png"; sourceTree = "<group>"; };
-		32B22D5821526DB600B2C140 /* live_room_truthOrBrave_title@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_truthOrBrave_title@3x.png"; sourceTree = "<group>"; };
-		32B22D5921526DB600B2C140 /* live_room_truthOrBrave_title@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_truthOrBrave_title@2x.png"; sourceTree = "<group>"; };
-		32B22D5A21526DB600B2C140 /* live_room_truthOrBrave_prepare_BG@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_truthOrBrave_prepare_BG@3x.png"; sourceTree = "<group>"; };
-		32B22D5D21526DB600B2C140 /* live_room_video_call_list_topBar_success_BG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_video_call_list_topBar_success_BG@2x.png"; sourceTree = "<group>"; };
-		32B22D5E21526DB600B2C140 /* live_room_video_call_list_cell_btn_refuse_n@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_video_call_list_cell_btn_refuse_n@2x.png"; sourceTree = "<group>"; };
-		32B22D5F21526DB600B2C140 /* live_room_video_call_list_cell_btn_agree_n@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_video_call_list_cell_btn_agree_n@2x.png"; sourceTree = "<group>"; };
-		32B22D6021526DB600B2C140 /* live_room_video_call_list_topBar_wait_BG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_video_call_list_topBar_wait_BG@2x.png"; sourceTree = "<group>"; };
-		32B22D6221526DB600B2C140 /* live_room_video_call_list_cell_btn_refuse_n@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_video_call_list_cell_btn_refuse_n@3x.png"; sourceTree = "<group>"; };
-		32B22D6321526DB600B2C140 /* live_room_video_call_list_topBar_success_BG@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_video_call_list_topBar_success_BG@3x.png"; sourceTree = "<group>"; };
-		32B22D6421526DB600B2C140 /* live_room_video_call_list_cell_btn_agree_n@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_video_call_list_cell_btn_agree_n@3x.png"; sourceTree = "<group>"; };
-		32B22D6521526DB600B2C140 /* live_room_video_call_list_topBar_wait_BG@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_video_call_list_topBar_wait_BG@3x.png"; sourceTree = "<group>"; };
-		32B22D7A2152967500B2C140 /* live_room_truthOrBrave_progressBar_pink@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_truthOrBrave_progressBar_pink@2x.png"; sourceTree = "<group>"; };
-		32B22D7B2152967500B2C140 /* live_room_truthOrBrave_progressBar_pink@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_truthOrBrave_progressBar_pink@3x.png"; sourceTree = "<group>"; };
-		32B22D7C2152967500B2C140 /* live_room_truthOrBrave_progressBar_blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_truthOrBrave_progressBar_blue@2x.png"; sourceTree = "<group>"; };
-		32B22D7D2152967500B2C140 /* live_room_truthOrBrave_progressBar_blue@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_truthOrBrave_progressBar_blue@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +119,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32076DEB21537C7F00EB690D /* LiveRoomTruthOrBrave */ = {
+			isa = PBXGroup;
+			children = (
+				32076DF321537C7F00EB690D /* LiveRoomVideoCallListView */,
+				32076DEC21537C7F00EB690D /* live_room_truthOrBrave_prepare_bg@2x.png */,
+				32076DED21537C7F00EB690D /* live_room_truthOrBrave_title@3x.png */,
+				32076DEE21537C7F00EB690D /* live_room_truthOrBrave_btn_vote_pink_h@3x.png */,
+				32076DEF21537C7F00EB690D /* live_room_truthOrBrave_btn_vote_pink_h@2x.png */,
+				32076DF021537C7F00EB690D /* live_room_truthOrBrave_title@2x.png */,
+				32076DF121537C7F00EB690D /* live_room_truthOrBrave_prepare_bg@3x.png */,
+				32076DF221537C7F00EB690D /* live_room_truthOrBrave_btn_vote_pink_n@3x.png */,
+				32076DFE21537C7F00EB690D /* live_room_truthOrBrave_progressBar_pink@2x.png */,
+				32076DFF21537C7F00EB690D /* live_room_truthOrBrave_progressBar_blue@2x.png */,
+				32076E0021537C7F00EB690D /* live_room_truthOrBrave_name_blue_bg@2x.png */,
+				32076E0121537C7F00EB690D /* live_room_truthOrBrave_countdown_timer_bg@3x.png */,
+				32076E0221537C7F00EB690D /* live_room_truthOrBrave_countdown_timer_bg@2x.png */,
+				32076E0321537C7F00EB690D /* live_room_truthOrBrave_progressBar_blue@3x.png */,
+				32076E0421537C7F00EB690D /* live_room_truthOrBrave_name_blue_bg@3x.png */,
+				32076E0521537C7F00EB690D /* live_room_truthOrBrave_progressBar_pink@3x.png */,
+				32076E0621537C7F00EB690D /* live_room_truthOrBrave_btn_vote_pink_n@2x.png */,
+				32076E0721537C7F00EB690D /* live_room_truthOrBrave_btn_vote_blue_h@2x.png */,
+				32076E0821537C7F00EB690D /* live_room_truthOrBrave_btn_vote_blue_h@3x.png */,
+				32076E0921537C7F00EB690D /* live_room_truthOrBrave_btn_vote_blue_n@2x.png */,
+				32076E0A21537C7F00EB690D /* live_room_truthOrBrave_name_pink_bg@3x.png */,
+				32076E0B21537C7F00EB690D /* live_room_truthOrBrave_name_pink_bg@2x.png */,
+				32076E0C21537C7F00EB690D /* live_room_truthOrBrave_btn_vote_blue_n@3x.png */,
+			);
+			name = LiveRoomTruthOrBrave;
+			path = "../../../真心话大冒险/LiveRoomTruthOrBrave";
+			sourceTree = "<group>";
+		};
+		32076DF321537C7F00EB690D /* LiveRoomVideoCallListView */ = {
+			isa = PBXGroup;
+			children = (
+				32076DF421537C7F00EB690D /* @2x */,
+				32076DF921537C7F00EB690D /* @3x */,
+			);
+			path = LiveRoomVideoCallListView;
+			sourceTree = "<group>";
+		};
+		32076DF421537C7F00EB690D /* @2x */ = {
+			isa = PBXGroup;
+			children = (
+				32076DF521537C7F00EB690D /* live_room_video_call_list_topBar_success_BG@2x.png */,
+				32076DF621537C7F00EB690D /* live_room_video_call_list_cell_btn_refuse_n@2x.png */,
+				32076DF721537C7F00EB690D /* live_room_video_call_list_cell_btn_agree_n@2x.png */,
+				32076DF821537C7F00EB690D /* live_room_video_call_list_topBar_wait_BG@2x.png */,
+			);
+			path = "@2x";
+			sourceTree = "<group>";
+		};
+		32076DF921537C7F00EB690D /* @3x */ = {
+			isa = PBXGroup;
+			children = (
+				32076DFA21537C7F00EB690D /* live_room_video_call_list_cell_btn_refuse_n@3x.png */,
+				32076DFB21537C7F00EB690D /* live_room_video_call_list_topBar_success_BG@3x.png */,
+				32076DFC21537C7F00EB690D /* live_room_video_call_list_cell_btn_agree_n@3x.png */,
+				32076DFD21537C7F00EB690D /* live_room_video_call_list_topBar_wait_BG@3x.png */,
+			);
+			path = "@3x";
+			sourceTree = "<group>";
+		};
 		3257228821085BDE00C3D85A = {
 			isa = PBXGroup;
 			children = (
@@ -152,8 +242,8 @@
 		327FABBA211C2C5400BF4D43 /* asset */ = {
 			isa = PBXGroup;
 			children = (
-				32B22D5621526DB600B2C140 /* LiveRoomTruthOrBrave */,
 				327FABBB211C2C5A00BF4D43 /* 2(1).jpg */,
+				32076DEB21537C7F00EB690D /* LiveRoomTruthOrBrave */,
 			);
 			name = asset;
 			path = LiveRoom/asset;
@@ -171,54 +261,6 @@
 			);
 			name = TruthOrBrave;
 			path = "../../../真心话大冒险/TruthOrBrave";
-			sourceTree = "<group>";
-		};
-		32B22D5621526DB600B2C140 /* LiveRoomTruthOrBrave */ = {
-			isa = PBXGroup;
-			children = (
-				32B22D7C2152967500B2C140 /* live_room_truthOrBrave_progressBar_blue@2x.png */,
-				32B22D7D2152967500B2C140 /* live_room_truthOrBrave_progressBar_blue@3x.png */,
-				32B22D7A2152967500B2C140 /* live_room_truthOrBrave_progressBar_pink@2x.png */,
-				32B22D7B2152967500B2C140 /* live_room_truthOrBrave_progressBar_pink@3x.png */,
-				32B22D5721526DB600B2C140 /* live_room_truthOrBrave_prepare_BG@2x.png */,
-				32B22D5821526DB600B2C140 /* live_room_truthOrBrave_title@3x.png */,
-				32B22D5921526DB600B2C140 /* live_room_truthOrBrave_title@2x.png */,
-				32B22D5A21526DB600B2C140 /* live_room_truthOrBrave_prepare_BG@3x.png */,
-				32B22D5B21526DB600B2C140 /* LiveRoomVideoCallListView */,
-			);
-			name = LiveRoomTruthOrBrave;
-			path = "../../../真心话大冒险/LiveRoomTruthOrBrave";
-			sourceTree = "<group>";
-		};
-		32B22D5B21526DB600B2C140 /* LiveRoomVideoCallListView */ = {
-			isa = PBXGroup;
-			children = (
-				32B22D5C21526DB600B2C140 /* @2x */,
-				32B22D6121526DB600B2C140 /* @3x */,
-			);
-			path = LiveRoomVideoCallListView;
-			sourceTree = "<group>";
-		};
-		32B22D5C21526DB600B2C140 /* @2x */ = {
-			isa = PBXGroup;
-			children = (
-				32B22D5D21526DB600B2C140 /* live_room_video_call_list_topBar_success_BG@2x.png */,
-				32B22D5E21526DB600B2C140 /* live_room_video_call_list_cell_btn_refuse_n@2x.png */,
-				32B22D5F21526DB600B2C140 /* live_room_video_call_list_cell_btn_agree_n@2x.png */,
-				32B22D6021526DB600B2C140 /* live_room_video_call_list_topBar_wait_BG@2x.png */,
-			);
-			path = "@2x";
-			sourceTree = "<group>";
-		};
-		32B22D6121526DB600B2C140 /* @3x */ = {
-			isa = PBXGroup;
-			children = (
-				32B22D6221526DB600B2C140 /* live_room_video_call_list_cell_btn_refuse_n@3x.png */,
-				32B22D6321526DB600B2C140 /* live_room_video_call_list_topBar_success_BG@3x.png */,
-				32B22D6421526DB600B2C140 /* live_room_video_call_list_cell_btn_agree_n@3x.png */,
-				32B22D6521526DB600B2C140 /* live_room_video_call_list_topBar_wait_BG@3x.png */,
-			);
-			path = "@3x";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,26 +320,40 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32B22D6A21526DB600B2C140 /* live_room_video_call_list_topBar_success_BG@2x.png in Resources */,
-				32B22D7021526DB600B2C140 /* live_room_video_call_list_cell_btn_agree_n@3x.png in Resources */,
-				32B22D6C21526DB600B2C140 /* live_room_video_call_list_cell_btn_agree_n@2x.png in Resources */,
+				32076E1C21537C7F00EB690D /* live_room_truthOrBrave_progressBar_pink@2x.png in Resources */,
+				32076E2921537C7F00EB690D /* live_room_truthOrBrave_name_pink_bg@2x.png in Resources */,
+				32076E2521537C7F00EB690D /* live_room_truthOrBrave_btn_vote_blue_h@2x.png in Resources */,
+				32076E1821537C7F00EB690D /* live_room_video_call_list_cell_btn_refuse_n@3x.png in Resources */,
+				32076E2721537C7F00EB690D /* live_room_truthOrBrave_btn_vote_blue_n@2x.png in Resources */,
+				32076E0F21537C7F00EB690D /* live_room_truthOrBrave_btn_vote_pink_h@3x.png in Resources */,
 				325722A121085BE200C3D85A /* LaunchScreen.storyboard in Resources */,
-				32B22D6721526DB600B2C140 /* live_room_truthOrBrave_title@3x.png in Resources */,
+				32076E1521537C7F00EB690D /* live_room_video_call_list_cell_btn_refuse_n@2x.png in Resources */,
+				32076E2121537C7F00EB690D /* live_room_truthOrBrave_progressBar_blue@3x.png in Resources */,
+				32076E0E21537C7F00EB690D /* live_room_truthOrBrave_title@3x.png in Resources */,
+				32076E2A21537C7F00EB690D /* live_room_truthOrBrave_btn_vote_blue_n@3x.png in Resources */,
+				32076E1721537C7F00EB690D /* live_room_video_call_list_topBar_wait_BG@2x.png in Resources */,
+				32076E1621537C7F00EB690D /* live_room_video_call_list_cell_btn_agree_n@2x.png in Resources */,
+				32076E2021537C7F00EB690D /* live_room_truthOrBrave_countdown_timer_bg@2x.png in Resources */,
+				32076E1A21537C7F00EB690D /* live_room_video_call_list_cell_btn_agree_n@3x.png in Resources */,
+				32076E2421537C7F00EB690D /* live_room_truthOrBrave_btn_vote_pink_n@2x.png in Resources */,
+				32076E1E21537C7F00EB690D /* live_room_truthOrBrave_name_blue_bg@2x.png in Resources */,
+				32076E1921537C7F00EB690D /* live_room_video_call_list_topBar_success_BG@3x.png in Resources */,
 				3257229E21085BE200C3D85A /* Assets.xcassets in Resources */,
+				32076E1B21537C7F00EB690D /* live_room_video_call_list_topBar_wait_BG@3x.png in Resources */,
+				32076E2321537C7F00EB690D /* live_room_truthOrBrave_progressBar_pink@3x.png in Resources */,
+				32076E2621537C7F00EB690D /* live_room_truthOrBrave_btn_vote_blue_h@3x.png in Resources */,
+				32076E2821537C7F00EB690D /* live_room_truthOrBrave_name_pink_bg@3x.png in Resources */,
+				32076E1121537C7F00EB690D /* live_room_truthOrBrave_title@2x.png in Resources */,
+				32076E0D21537C7F00EB690D /* live_room_truthOrBrave_prepare_bg@2x.png in Resources */,
+				32076E1421537C7F00EB690D /* live_room_video_call_list_topBar_success_BG@2x.png in Resources */,
+				32076E2221537C7F00EB690D /* live_room_truthOrBrave_name_blue_bg@3x.png in Resources */,
+				32076E1D21537C7F00EB690D /* live_room_truthOrBrave_progressBar_blue@2x.png in Resources */,
+				32076E1021537C7F00EB690D /* live_room_truthOrBrave_btn_vote_pink_h@2x.png in Resources */,
+				32076E1321537C7F00EB690D /* live_room_truthOrBrave_btn_vote_pink_n@3x.png in Resources */,
+				32076E1221537C7F00EB690D /* live_room_truthOrBrave_prepare_bg@3x.png in Resources */,
+				32076E1F21537C7F00EB690D /* live_room_truthOrBrave_countdown_timer_bg@3x.png in Resources */,
 				3257229C21085BDE00C3D85A /* Main.storyboard in Resources */,
-				32B22D6821526DB600B2C140 /* live_room_truthOrBrave_title@2x.png in Resources */,
-				32B22D7121526DB600B2C140 /* live_room_video_call_list_topBar_wait_BG@3x.png in Resources */,
-				32B22D6D21526DB600B2C140 /* live_room_video_call_list_topBar_wait_BG@2x.png in Resources */,
-				32B22D802152967600B2C140 /* live_room_truthOrBrave_progressBar_blue@2x.png in Resources */,
 				327FABBC211C2C5A00BF4D43 /* 2(1).jpg in Resources */,
-				32B22D6F21526DB600B2C140 /* live_room_video_call_list_topBar_success_BG@3x.png in Resources */,
-				32B22D6B21526DB600B2C140 /* live_room_video_call_list_cell_btn_refuse_n@2x.png in Resources */,
-				32B22D6621526DB600B2C140 /* live_room_truthOrBrave_prepare_BG@2x.png in Resources */,
-				32B22D812152967600B2C140 /* live_room_truthOrBrave_progressBar_blue@3x.png in Resources */,
-				32B22D6921526DB600B2C140 /* live_room_truthOrBrave_prepare_BG@3x.png in Resources */,
-				32B22D7F2152967600B2C140 /* live_room_truthOrBrave_progressBar_pink@3x.png in Resources */,
-				32B22D7E2152967600B2C140 /* live_room_truthOrBrave_progressBar_pink@2x.png in Resources */,
-				32B22D6E21526DB600B2C140 /* live_room_video_call_list_cell_btn_refuse_n@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
