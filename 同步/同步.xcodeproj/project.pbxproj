@@ -19,11 +19,11 @@
 		326623E42109778E004CCA75 /* Bird2.png in Resources */ = {isa = PBXBuildFile; fileRef = 326623E02109778D004CCA75 /* Bird2.png */; };
 		326623E62109778E004CCA75 /* Bird4.png in Resources */ = {isa = PBXBuildFile; fileRef = 326623E22109778E004CCA75 /* Bird4.png */; };
 		326623E72109778E004CCA75 /* Bird1.png in Resources */ = {isa = PBXBuildFile; fileRef = 326623E32109778E004CCA75 /* Bird1.png */; };
-		326623E921097BB9004CCA75 /* Bird3.png in Resources */ = {isa = PBXBuildFile; fileRef = 326623E821097BB9004CCA75 /* Bird3.png */; };
 		327FABB9211C2BCE00BF4D43 /* 2(1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 327FABB8211C2BCE00BF4D43 /* 2(1).jpg */; };
 		3286C2FF214110C100C1FB22 /* ViewController003.m in Sources */ = {isa = PBXBuildFile; fileRef = 3286C2FE214110C100C1FB22 /* ViewController003.m */; };
 		3286C3032141147F00C1FB22 /* ModelLoactor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3286C3022141147F00C1FB22 /* ModelLoactor.m */; };
 		329128B221427BE900E2126E /* FallsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 329128B121427BE900E2126E /* FallsViewController.m */; };
+		3293A6FD215A7A7000C12431 /* ViewController004.m in Sources */ = {isa = PBXBuildFile; fileRef = 3293A6FC215A7A7000C12431 /* ViewController004.m */; };
 		32A49486213FB00C00E9754B /* 001ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A49485213FB00C00E9754B /* 001ViewController.m */; };
 		32A49489213FB32400E9754B /* CollectionViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A49488213FB32400E9754B /* CollectionViewItem.m */; };
 /* End PBXBuildFile section */
@@ -66,7 +66,6 @@
 		326623E02109778D004CCA75 /* Bird2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bird2.png; sourceTree = "<group>"; };
 		326623E22109778E004CCA75 /* Bird4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bird4.png; sourceTree = "<group>"; };
 		326623E32109778E004CCA75 /* Bird1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bird1.png; sourceTree = "<group>"; };
-		326623E821097BB9004CCA75 /* Bird3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Bird3.png; path = ../../../../Downloads/Bird3.png; sourceTree = "<group>"; };
 		327FABB8211C2BCE00BF4D43 /* 2(1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2(1).jpg"; sourceTree = "<group>"; };
 		3286C2FD214110C100C1FB22 /* ViewController003.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController003.h; sourceTree = "<group>"; };
 		3286C2FE214110C100C1FB22 /* ViewController003.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController003.m; sourceTree = "<group>"; };
@@ -74,6 +73,8 @@
 		3286C3022141147F00C1FB22 /* ModelLoactor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelLoactor.m; sourceTree = "<group>"; };
 		329128B021427BE900E2126E /* FallsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FallsViewController.h; sourceTree = "<group>"; };
 		329128B121427BE900E2126E /* FallsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FallsViewController.m; sourceTree = "<group>"; };
+		3293A6FB215A7A7000C12431 /* ViewController004.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController004.h; sourceTree = "<group>"; };
+		3293A6FC215A7A7000C12431 /* ViewController004.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController004.m; sourceTree = "<group>"; };
 		32A49484213FB00C00E9754B /* 001ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 001ViewController.h; sourceTree = "<group>"; };
 		32A49485213FB00C00E9754B /* 001ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = 001ViewController.m; sourceTree = "<group>"; };
 		32A49487213FB32400E9754B /* CollectionViewItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewItem.h; sourceTree = "<group>"; };
@@ -131,7 +132,6 @@
 				326623DE2109711B004CCA75 /* Bird.png */,
 				326623E32109778E004CCA75 /* Bird1.png */,
 				326623E02109778D004CCA75 /* Bird2.png */,
-				326623E821097BB9004CCA75 /* Bird3.png */,
 				326623E22109778E004CCA75 /* Bird4.png */,
 				327FABB8211C2BCE00BF4D43 /* 2(1).jpg */,
 				3237A47620F2457E00347227 /* AppDelegate.h */,
@@ -142,6 +142,7 @@
 				3286C3022141147F00C1FB22 /* ModelLoactor.m */,
 				3237A47920F2457E00347227 /* ViewController.h */,
 				3237A47A20F2457E00347227 /* ViewController.m */,
+				3293A6FA215A7A5F00C12431 /* 004 */,
 				3286C2F921410ECD00C1FB22 /* 003 */,
 				3286C2F821410EC800C1FB22 /* 002 */,
 				32A49483213FAFF700E9754B /* 001 */,
@@ -203,6 +204,15 @@
 				329128B121427BE900E2126E /* FallsViewController.m */,
 			);
 			path = "瀑布流";
+			sourceTree = "<group>";
+		};
+		3293A6FA215A7A5F00C12431 /* 004 */ = {
+			isa = PBXGroup;
+			children = (
+				3293A6FB215A7A7000C12431 /* ViewController004.h */,
+				3293A6FC215A7A7000C12431 /* ViewController004.m */,
+			);
+			path = 004;
 			sourceTree = "<group>";
 		};
 		32A49483213FAFF700E9754B /* 001 */ = {
@@ -331,7 +341,6 @@
 				3237A48320F2457E00347227 /* LaunchScreen.storyboard in Resources */,
 				3237A48020F2457E00347227 /* Assets.xcassets in Resources */,
 				326623E72109778E004CCA75 /* Bird1.png in Resources */,
-				326623E921097BB9004CCA75 /* Bird3.png in Resources */,
 				3237A47E20F2457E00347227 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,6 +366,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3293A6FD215A7A7000C12431 /* ViewController004.m in Sources */,
 				3237A47B20F2457E00347227 /* ViewController.m in Sources */,
 				329128B221427BE900E2126E /* FallsViewController.m in Sources */,
 				3237A47820F2457E00347227 /* AppDelegate.m in Sources */,
