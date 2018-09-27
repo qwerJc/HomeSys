@@ -43,6 +43,7 @@ static NSInteger const kTruthOrBraveQuestionViewQuestionViewHeight = 33;
 
 @property (strong, nonatomic) UIImageView *imgvQuestionIndex;   // 问题序号
 @property (strong, nonatomic) UITextView *txvQuestion;
+@property (strong, nonatomic) UILabel *lblTry;
 @end
 
 @implementation LiveRoomTruthOrBraveQuestionView
@@ -75,7 +76,9 @@ static NSInteger const kTruthOrBraveQuestionViewQuestionViewHeight = 33;
     [self addSubview:self.imgvTitle];
     
     [self addSubview:self.imgvQuestionIndex];
-    [self addSubview:self.txfQuestion];
+//    [self addSubview:self.txfQuestion];
+    
+    [self addSubview:self.lblTry];
 }
 #pragma mark - Btn Action
 - (void)onShowPinkVoteViewAction {
@@ -198,6 +201,7 @@ static NSInteger const kTruthOrBraveQuestionViewQuestionViewHeight = 33;
     }
     return _imgvQuestionIndex;
 }
+
 - (UITextView *)txfQuestion {
     if (!_txvQuestion) {
         _txvQuestion = [[UITextView alloc] initWithFrame:CGRectMake(CGRectGetMaxX(_imgvQuestionIndex.frame) +kTruthOrBraveQuestionViewQuestionViewMarginLeft,
@@ -213,5 +217,21 @@ static NSInteger const kTruthOrBraveQuestionViewQuestionViewHeight = 33;
         [_txvQuestion setBackgroundColor:[UIColor clearColor]];
     }
     return _txvQuestion;
+}
+
+- (UILabel *)lblTry {
+    if (!_lblTry) {
+        _lblTry = [[UILabel alloc] initWithFrame:CGRectMake(CGRectGetMaxX(_imgvQuestionIndex.frame) +kTruthOrBraveQuestionViewQuestionViewMarginLeft,
+                                                            CGRectGetMidY(_imgvPinkProgress.frame) - kTruthOrBraveQuestionViewQuestionViewHeight/2,
+                                                            CGRectGetMinX(_btnBlueVote.frame) - kTruthOrBraveQuestionViewQuestionViewMarginRight-CGRectGetMaxX(_imgvQuestionIndex.frame) - kTruthOrBraveQuestionViewQuestionViewMarginLeft,
+                                                            0)];
+        _lblTry.text = @"fdskljkljklfsdjkfjdsakjklfdasjklsfjdakljfsadljfsdaldsafdsafdsafasdfds";
+        _lblTry.numberOfLines = 2;
+        [_lblTry sizeToFit];
+        CGFloat centerX = _lblTry.center.x;
+        _lblTry.center = CGPointMake(centerX, CGRectGetMidY(_imgvQuestionIndex.frame));
+//        [_lblTry setBackgroundColor:[UIColor greenColor]];
+    }
+    return _lblTry;
 }
 @end
