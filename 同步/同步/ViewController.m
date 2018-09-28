@@ -12,6 +12,7 @@
 #import "001ViewController.h"
 #import "ViewController003.h"
 #import "ViewController004.h"
+#import "ViewController005.h"
 
 #define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
 #define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
@@ -25,7 +26,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.arrData = @[@"CollectionView",@"TableView",@"倒计时",@"仿支付宝 输入框"];
+    self.arrData = @[@"CollectionView",@"TableView",@"倒计时",@"仿支付宝 输入框",@"自适应高度label"];
     [self.view setBackgroundColor:[UIColor whiteColor]];
     
     //创建一个layout布局类
@@ -89,6 +90,11 @@
         }
         case 3:{
             ViewController004 *vc = [[ViewController004 alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+        case 4:{
+            ViewController005 *vc = [[ViewController005 alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
             break;
         }
