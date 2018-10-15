@@ -26,10 +26,46 @@
     // Do any additional setup after loading the view.
     [self.view setBackgroundColor:[UIColor grayColor]];
     
-    UIButton *btn1 = [[UIButton alloc] initWithFrame:CGRectMake(20, 60, 100, 40)];
+    NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc] init];
+    paragraphStyle.lineBreakMode = NSLineBreakByWordWrapping;
+    paragraphStyle.alignment = NSTextAlignmentCenter;
+    
+    NSAttributedString *strTitle = [[NSAttributedString alloc] initWithString:@"真心话大冒险连麦"
+                                                                   attributes:@{
+                                                                                NSForegroundColorAttributeName : [UIColor blackColor],
+                                                                                NSFontAttributeName : [UIFont systemFontOfSize:10],
+                                                                                NSParagraphStyleAttributeName: paragraphStyle,
+                                                                                }];
+    
+    NSAttributedString *strPrice = [[NSAttributedString alloc] initWithString:@"\n1000六币/局"
+                                                                   attributes:@{
+                                                                                NSForegroundColorAttributeName : [UIColor colorWithRed:255.f green:240.f blue:0.f alpha:1],
+                                                                                NSFontAttributeName : [UIFont boldSystemFontOfSize:10],
+                                                                                NSParagraphStyleAttributeName: paragraphStyle,
+                                                                                }];
+    
+    NSMutableAttributedString *message = [[NSMutableAttributedString alloc] initWithAttributedString:strTitle];
+    [message appendAttributedString:strPrice];
+    
+    UIButton *btn1 = [[UIButton alloc] initWithFrame:CGRectMake(20, 60, 100, 80)];
+//    [btn1 setTitle:@"真心话大冒险连麦\n1000六币/局" forState:UIControlStateNormal];
+    btn1.titleLabel.lineBreakMode = NSLineBreakByWordWrapping;
     [btn1 setBackgroundColor:[UIColor greenColor]];
     [btn1 addTarget:self action:@selector(onBtn1Action) forControlEvents:UIControlEventTouchUpInside];
+    [btn1 setAttributedTitle:message forState:UIControlStateNormal];
     [self.view addSubview:btn1];
+    
+//    UIButton *btn1 = [[UIButton alloc] initWithFrame:CGRectMake(100,
+//                                                                100,
+//                                                                (SCREEN_WIDTH - 40 )/2 ,
+//                                                                50)];
+//    [btn1.layer setCornerRadius:20.0];
+//    [btn1 setBackgroundColor:[UIColor redColor]];
+//    [btn1 addTarget:self action:@selector(onApplyGameCallAction) forControlEvents:UIControlEventTouchUpInside];
+//    [btn1 addTarget:self action:@selector(onBtnApplyGameHighlighted) forControlEvents:UIControlEventTouchDown];
+//    [btn1 addTarget:self action:@selector(onBtnApplyGameNormal) forControlEvents:UIControlEventTouchUpOutside|UIControlEventTouchDragOutside];
+//    [btn1 setAttributedTitle:message forState:UIControlStateNormal];
+//    [self.view addSubview:btn1];
     
     _tableview = [[UITableView alloc] initWithFrame:CGRectMake(0, 200, SCREEN_WIDTH, 300) style:UITableViewStyleGrouped];
     _tableview.delegate = self;
@@ -42,6 +78,19 @@
     UIView *bound = [[UIView alloc] initWithFrame:CGRectMake(1, 1, SCREEN_WIDTH-2, 98)];
     bound.backgroundColor = [UIColor redColor];
     [_headerView addSubview:bound];
+    
+    
+    UIView *viewTry = [[UIView alloc] initWithFrame:CGRectMake(100, 200, 200, 100)];
+    [viewTry setBackgroundColor:[UIColor grayColor]];
+    [self.view addSubview:viewTry];
+    
+    UILabel *lblTitle = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 200, 100)];
+    [lblTitle setFont:[UIFont systemFontOfSize:12.0]];
+//    [lblTitle setTextAlignment:NSTextAlignmentLeft];
+    [lblTitle setText:@"送甜蜜棒棒糖跳舞"];
+    [viewTry addSubview:lblTitle];
+    
+    NSLog(@"lblTitle width:%f /n height:%f",lblTitle.frame.size.width,lblTitle.frame.size.height);
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
