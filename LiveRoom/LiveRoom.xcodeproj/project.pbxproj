@@ -37,6 +37,7 @@
 		32076E2821537C7F00EB690D /* live_room_truthOrBrave_name_pink_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32076E0A21537C7F00EB690D /* live_room_truthOrBrave_name_pink_bg@3x.png */; };
 		32076E2921537C7F00EB690D /* live_room_truthOrBrave_name_pink_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32076E0B21537C7F00EB690D /* live_room_truthOrBrave_name_pink_bg@2x.png */; };
 		32076E2A21537C7F00EB690D /* live_room_truthOrBrave_btn_vote_blue_n@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32076E0C21537C7F00EB690D /* live_room_truthOrBrave_btn_vote_blue_n@3x.png */; };
+		3240ECAC216A48FF00A93411 /* PersonalVoiceRoomSeatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3240ECAB216A48FF00A93411 /* PersonalVoiceRoomSeatView.m */; };
 		3257229621085BDE00C3D85A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3257229521085BDE00C3D85A /* AppDelegate.m */; };
 		3257229921085BDE00C3D85A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3257229821085BDE00C3D85A /* ViewController.m */; };
 		3257229C21085BDE00C3D85A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3257229A21085BDE00C3D85A /* Main.storyboard */; };
@@ -83,6 +84,8 @@
 		32076E0A21537C7F00EB690D /* live_room_truthOrBrave_name_pink_bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_truthOrBrave_name_pink_bg@3x.png"; sourceTree = "<group>"; };
 		32076E0B21537C7F00EB690D /* live_room_truthOrBrave_name_pink_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_truthOrBrave_name_pink_bg@2x.png"; sourceTree = "<group>"; };
 		32076E0C21537C7F00EB690D /* live_room_truthOrBrave_btn_vote_blue_n@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_truthOrBrave_btn_vote_blue_n@3x.png"; sourceTree = "<group>"; };
+		3240ECAA216A48FF00A93411 /* PersonalVoiceRoomSeatView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonalVoiceRoomSeatView.h; sourceTree = "<group>"; };
+		3240ECAB216A48FF00A93411 /* PersonalVoiceRoomSeatView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalVoiceRoomSeatView.m; sourceTree = "<group>"; };
 		3257229121085BDE00C3D85A /* LiveRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3257229421085BDE00C3D85A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3257229521085BDE00C3D85A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -181,6 +184,24 @@
 			path = "@3x";
 			sourceTree = "<group>";
 		};
+		3240ECA8216A48AC00A93411 /* PersonalVoiceCallRoomSeat */ = {
+			isa = PBXGroup;
+			children = (
+				3240ECA9216A48C900A93411 /* TruthOrBrave */,
+			);
+			name = PersonalVoiceCallRoomSeat;
+			path = "../../../真心话大冒险/PersonalVoiceCallRoomSeat";
+			sourceTree = "<group>";
+		};
+		3240ECA9216A48C900A93411 /* TruthOrBrave */ = {
+			isa = PBXGroup;
+			children = (
+				3240ECAA216A48FF00A93411 /* PersonalVoiceRoomSeatView.h */,
+				3240ECAB216A48FF00A93411 /* PersonalVoiceRoomSeatView.m */,
+			);
+			path = TruthOrBrave;
+			sourceTree = "<group>";
+		};
 		3257228821085BDE00C3D85A = {
 			isa = PBXGroup;
 			children = (
@@ -231,6 +252,7 @@
 		325722AF21085F9000C3D85A /* JJCC */ = {
 			isa = PBXGroup;
 			children = (
+				3240ECA8216A48AC00A93411 /* PersonalVoiceCallRoomSeat */,
 				325722B32108600600C3D85A /* AppDelegate+JJC.h */,
 				325722B42108600600C3D85A /* AppDelegate+JJC.m */,
 				32B22D482151488C00B2C140 /* TruthOrBrave */,
@@ -365,6 +387,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3257229921085BDE00C3D85A /* ViewController.m in Sources */,
+				3240ECAC216A48FF00A93411 /* PersonalVoiceRoomSeatView.m in Sources */,
 				325722A421085BE200C3D85A /* main.m in Sources */,
 				325722B52108600600C3D85A /* AppDelegate+JJC.m in Sources */,
 				32B22D4F2151488D00B2C140 /* LiveRoomTruthOrBraveCountdownTimerView.m in Sources */,

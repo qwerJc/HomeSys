@@ -8,6 +8,7 @@
 
 #import "AppDelegate+JJC.h"
 #import "LiveRoomTruthOrBraveView.h"
+#import "PersonalVoiceRoomSeatView.h"
 
 @implementation AppDelegate (JJC)
 -(void)jjc_applicationDidFinishLaunching{
@@ -23,7 +24,9 @@
 }
 
 - (void)jjc_liveRoomWillSetupNotificationAction:(NSNotification *)notification{
-    [self addTruthOrBraveView];
+//    [self addTruthOrBraveView];
+    [self addPersonalVoiceRoomSeatView];
+    
 }
 
 - (void)addTruthOrBraveView {
@@ -31,4 +34,8 @@
     [self addFixedViewToFullScreenRoom:viewBrave withHighDisplayPriority:YES];
 }
 
+- (void)addPersonalVoiceRoomSeatView {
+    PersonalVoiceRoomSeatView *seatView = [[PersonalVoiceRoomSeatView alloc] init];
+    [self addFixedViewToFullScreenRoom:seatView withHighDisplayPriority:YES];
+}
 @end
