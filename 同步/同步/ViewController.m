@@ -27,7 +27,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.arrData = @[@"CollectionView",@"TableView",@"倒计时",@"仿支付宝 输入框",@"自适应高度label",@"tableView Header"];
+    self.arrData = @[@"CollectionView",@"TableView",@"倒计时",@"仿支付宝 输入框 \n渐变按钮",@"自适应高度label",@"tableView Header"];
     [self.view setBackgroundColor:[UIColor whiteColor]];
     
     //创建一个layout布局类
