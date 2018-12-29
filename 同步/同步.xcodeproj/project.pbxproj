@@ -17,6 +17,7 @@
 		3237A49920F2457E00347227 /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3237A49820F2457E00347227 /* __UITests.m */; };
 		3240ECA421665B6F00A93411 /* ViewController006.m in Sources */ = {isa = PBXBuildFile; fileRef = 3240ECA321665B6F00A93411 /* ViewController006.m */; };
 		32585CB2215E783E000D91EB /* ViewController005.m in Sources */ = {isa = PBXBuildFile; fileRef = 32585CB1215E783E000D91EB /* ViewController005.m */; };
+		3259ADF62175B39000EFA943 /* RoomCallListCellButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3259ADF52175B38F00EFA943 /* RoomCallListCellButton.m */; };
 		326623DF2109711B004CCA75 /* Bird.png in Resources */ = {isa = PBXBuildFile; fileRef = 326623DE2109711B004CCA75 /* Bird.png */; };
 		326623E42109778E004CCA75 /* Bird2.png in Resources */ = {isa = PBXBuildFile; fileRef = 326623E02109778D004CCA75 /* Bird2.png */; };
 		326623E62109778E004CCA75 /* Bird4.png in Resources */ = {isa = PBXBuildFile; fileRef = 326623E22109778E004CCA75 /* Bird4.png */; };
@@ -68,6 +69,8 @@
 		3240ECA321665B6F00A93411 /* ViewController006.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController006.m; sourceTree = "<group>"; };
 		32585CB0215E783E000D91EB /* ViewController005.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController005.h; sourceTree = "<group>"; };
 		32585CB1215E783E000D91EB /* ViewController005.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController005.m; sourceTree = "<group>"; };
+		3259ADF42175B38F00EFA943 /* RoomCallListCellButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomCallListCellButton.h; sourceTree = "<group>"; };
+		3259ADF52175B38F00EFA943 /* RoomCallListCellButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomCallListCellButton.m; sourceTree = "<group>"; };
 		326623DE2109711B004CCA75 /* Bird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bird.png; sourceTree = "<group>"; };
 		326623E02109778D004CCA75 /* Bird2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bird2.png; sourceTree = "<group>"; };
 		326623E22109778E004CCA75 /* Bird4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bird4.png; sourceTree = "<group>"; };
@@ -142,12 +145,12 @@
 				327FABB8211C2BCE00BF4D43 /* 2(1).jpg */,
 				3237A47620F2457E00347227 /* AppDelegate.h */,
 				3237A47720F2457E00347227 /* AppDelegate.m */,
-				32A49487213FB32400E9754B /* CollectionViewItem.h */,
-				32A49488213FB32400E9754B /* CollectionViewItem.m */,
 				3286C3012141147F00C1FB22 /* ModelLoactor.h */,
 				3286C3022141147F00C1FB22 /* ModelLoactor.m */,
 				3237A47920F2457E00347227 /* ViewController.h */,
 				3237A47A20F2457E00347227 /* ViewController.m */,
+				32A49487213FB32400E9754B /* CollectionViewItem.h */,
+				32A49488213FB32400E9754B /* CollectionViewItem.m */,
 				326FF41E2174C8D1001A8F9F /* 007 */,
 				3240ECA121665B6100A93411 /* 006 */,
 				32585CAC215E777A000D91EB /* 005 */,
@@ -243,6 +246,8 @@
 		3293A6FA215A7A5F00C12431 /* 004 */ = {
 			isa = PBXGroup;
 			children = (
+				3259ADF42175B38F00EFA943 /* RoomCallListCellButton.h */,
+				3259ADF52175B38F00EFA943 /* RoomCallListCellButton.m */,
 				3293A6FB215A7A7000C12431 /* ViewController004.h */,
 				3293A6FC215A7A7000C12431 /* ViewController004.m */,
 			);
@@ -408,6 +413,7 @@
 				3286C2FF214110C100C1FB22 /* ViewController003.m in Sources */,
 				3286C3032141147F00C1FB22 /* ModelLoactor.m in Sources */,
 				32585CB2215E783E000D91EB /* ViewController005.m in Sources */,
+				3259ADF62175B39000EFA943 /* RoomCallListCellButton.m in Sources */,
 				32A49489213FB32400E9754B /* CollectionViewItem.m in Sources */,
 				32A49486213FB00C00E9754B /* 001ViewController.m in Sources */,
 				3237A47520F2457E00347227 /* main.m in Sources */,

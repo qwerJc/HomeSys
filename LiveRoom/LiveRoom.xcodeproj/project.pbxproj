@@ -37,7 +37,24 @@
 		32076E2821537C7F00EB690D /* live_room_truthOrBrave_name_pink_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32076E0A21537C7F00EB690D /* live_room_truthOrBrave_name_pink_bg@3x.png */; };
 		32076E2921537C7F00EB690D /* live_room_truthOrBrave_name_pink_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32076E0B21537C7F00EB690D /* live_room_truthOrBrave_name_pink_bg@2x.png */; };
 		32076E2A21537C7F00EB690D /* live_room_truthOrBrave_btn_vote_blue_n@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32076E0C21537C7F00EB690D /* live_room_truthOrBrave_btn_vote_blue_n@3x.png */; };
+		3234C34421D4AEE900B8FE0B /* LiveLobbyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3234C34321D4AEE900B8FE0B /* LiveLobbyViewController.m */; };
 		3240ECAC216A48FF00A93411 /* PersonalVoiceRoomSeatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3240ECAB216A48FF00A93411 /* PersonalVoiceRoomSeatView.m */; };
+		324880DE21D71338002220C8 /* LiveLobbyMiniVideoListData.m in Sources */ = {isa = PBXBuildFile; fileRef = 324880DD21D71338002220C8 /* LiveLobbyMiniVideoListData.m */; };
+		324880E121D74D8D002220C8 /* LiveLobbyMiniVideoListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 324880E021D74D8D002220C8 /* LiveLobbyMiniVideoListViewCell.m */; };
+		324880F321D7755D002220C8 /* mini_video_lobby_video_placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 324880E421D7755D002220C8 /* mini_video_lobby_video_placeholder@2x.png */; };
+		324880F421D7755D002220C8 /* mini_video_lobby_play_icon_big@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 324880E521D7755D002220C8 /* mini_video_lobby_play_icon_big@2x.png */; };
+		324880F521D7755D002220C8 /* mini_video_lobby_play_count@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 324880E621D7755D002220C8 /* mini_video_lobby_play_count@2x.png */; };
+		324880F621D7755D002220C8 /* mini_video_lobby_option_button_selected_triangle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 324880E721D7755D002220C8 /* mini_video_lobby_option_button_selected_triangle@2x.png */; };
+		324880F721D7755D002220C8 /* mini_video_lobby_mask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 324880E821D7755D002220C8 /* mini_video_lobby_mask@2x.png */; };
+		324880F821D7755D002220C8 /* mini_video_lobby_play_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 324880E921D7755D002220C8 /* mini_video_lobby_play_button@2x.png */; };
+		324880F921D7755D002220C8 /* mini_video_lobby_red_dot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 324880EA21D7755D002220C8 /* mini_video_lobby_red_dot@2x.png */; };
+		324880FA21D7755D002220C8 /* mini_video_lobby_play_icon_big@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 324880EC21D7755D002220C8 /* mini_video_lobby_play_icon_big@3x.png */; };
+		324880FB21D7755D002220C8 /* mini_video_lobby_video_placeholder@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 324880ED21D7755D002220C8 /* mini_video_lobby_video_placeholder@3x.png */; };
+		324880FC21D7755D002220C8 /* mini_video_lobby_option_button_selected_triangle@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 324880EE21D7755D002220C8 /* mini_video_lobby_option_button_selected_triangle@3x.png */; };
+		324880FD21D7755D002220C8 /* mini_video_lobby_play_count@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 324880EF21D7755D002220C8 /* mini_video_lobby_play_count@3x.png */; };
+		324880FE21D7755D002220C8 /* mini_video_lobby_play_button@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 324880F021D7755D002220C8 /* mini_video_lobby_play_button@3x.png */; };
+		324880FF21D7755D002220C8 /* mini_video_lobby_mask@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 324880F121D7755D002220C8 /* mini_video_lobby_mask@3x.png */; };
+		3248810021D7755D002220C8 /* mini_video_lobby_red_dot@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 324880F221D7755D002220C8 /* mini_video_lobby_red_dot@3x.png */; };
 		3257229621085BDE00C3D85A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3257229521085BDE00C3D85A /* AppDelegate.m */; };
 		3257229921085BDE00C3D85A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3257229821085BDE00C3D85A /* ViewController.m */; };
 		3257229C21085BDE00C3D85A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3257229A21085BDE00C3D85A /* Main.storyboard */; };
@@ -51,6 +68,17 @@
 		32B22D4F2151488D00B2C140 /* LiveRoomTruthOrBraveCountdownTimerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B22D492151488C00B2C140 /* LiveRoomTruthOrBraveCountdownTimerView.m */; };
 		32B22D502151488D00B2C140 /* LiveRoomTruthOrBraveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B22D4C2151488C00B2C140 /* LiveRoomTruthOrBraveView.m */; };
 		32B22D512151488D00B2C140 /* LiveRoomTruthOrBraveQuestionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B22D4E2151488C00B2C140 /* LiveRoomTruthOrBraveQuestionView.m */; };
+		32DF905021D5C964002700D1 /* LiveLobbyMainScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DF904F21D5C964002700D1 /* LiveLobbyMainScrollView.m */; };
+		32DF905821D5D929002700D1 /* LiveLobbyMiniVideoListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DF905721D5D929002700D1 /* LiveLobbyMiniVideoListView.m */; };
+		32DF905B21D5D976002700D1 /* LiveLobbyHotsListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DF905A21D5D976002700D1 /* LiveLobbyHotsListView.m */; };
+		32DF906A21D5FFEE002700D1 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DF906121D5FFEE002700D1 /* AFURLResponseSerialization.m */; };
+		32DF906B21D5FFEE002700D1 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DF906221D5FFEE002700D1 /* AFHTTPSessionManager.m */; };
+		32DF906C21D5FFEE002700D1 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DF906421D5FFEE002700D1 /* AFURLSessionManager.m */; };
+		32DF906D21D5FFEE002700D1 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DF906521D5FFEE002700D1 /* AFURLRequestSerialization.m */; };
+		32DF906E21D5FFEE002700D1 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DF906721D5FFEE002700D1 /* AFNetworkReachabilityManager.m */; };
+		32DF906F21D5FFEE002700D1 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DF906821D5FFEE002700D1 /* AFSecurityPolicy.m */; };
+		32DF907321D600CA002700D1 /* HttpEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DF907221D600CA002700D1 /* HttpEngine.m */; };
+		32DF907921D60131002700D1 /* HttpEngine+LiveLobby.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DF907821D60131002700D1 /* HttpEngine+LiveLobby.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,8 +112,28 @@
 		32076E0A21537C7F00EB690D /* live_room_truthOrBrave_name_pink_bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_truthOrBrave_name_pink_bg@3x.png"; sourceTree = "<group>"; };
 		32076E0B21537C7F00EB690D /* live_room_truthOrBrave_name_pink_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_truthOrBrave_name_pink_bg@2x.png"; sourceTree = "<group>"; };
 		32076E0C21537C7F00EB690D /* live_room_truthOrBrave_btn_vote_blue_n@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "live_room_truthOrBrave_btn_vote_blue_n@3x.png"; sourceTree = "<group>"; };
+		3234C34221D4AEE900B8FE0B /* LiveLobbyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveLobbyViewController.h; sourceTree = "<group>"; };
+		3234C34321D4AEE900B8FE0B /* LiveLobbyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveLobbyViewController.m; sourceTree = "<group>"; };
 		3240ECAA216A48FF00A93411 /* PersonalVoiceRoomSeatView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonalVoiceRoomSeatView.h; sourceTree = "<group>"; };
 		3240ECAB216A48FF00A93411 /* PersonalVoiceRoomSeatView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalVoiceRoomSeatView.m; sourceTree = "<group>"; };
+		324880DC21D71338002220C8 /* LiveLobbyMiniVideoListData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveLobbyMiniVideoListData.h; sourceTree = "<group>"; };
+		324880DD21D71338002220C8 /* LiveLobbyMiniVideoListData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveLobbyMiniVideoListData.m; sourceTree = "<group>"; };
+		324880DF21D74D8D002220C8 /* LiveLobbyMiniVideoListViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveLobbyMiniVideoListViewCell.h; sourceTree = "<group>"; };
+		324880E021D74D8D002220C8 /* LiveLobbyMiniVideoListViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveLobbyMiniVideoListViewCell.m; sourceTree = "<group>"; };
+		324880E421D7755D002220C8 /* mini_video_lobby_video_placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mini_video_lobby_video_placeholder@2x.png"; sourceTree = "<group>"; };
+		324880E521D7755D002220C8 /* mini_video_lobby_play_icon_big@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mini_video_lobby_play_icon_big@2x.png"; sourceTree = "<group>"; };
+		324880E621D7755D002220C8 /* mini_video_lobby_play_count@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mini_video_lobby_play_count@2x.png"; sourceTree = "<group>"; };
+		324880E721D7755D002220C8 /* mini_video_lobby_option_button_selected_triangle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mini_video_lobby_option_button_selected_triangle@2x.png"; sourceTree = "<group>"; };
+		324880E821D7755D002220C8 /* mini_video_lobby_mask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mini_video_lobby_mask@2x.png"; sourceTree = "<group>"; };
+		324880E921D7755D002220C8 /* mini_video_lobby_play_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mini_video_lobby_play_button@2x.png"; sourceTree = "<group>"; };
+		324880EA21D7755D002220C8 /* mini_video_lobby_red_dot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mini_video_lobby_red_dot@2x.png"; sourceTree = "<group>"; };
+		324880EC21D7755D002220C8 /* mini_video_lobby_play_icon_big@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mini_video_lobby_play_icon_big@3x.png"; sourceTree = "<group>"; };
+		324880ED21D7755D002220C8 /* mini_video_lobby_video_placeholder@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mini_video_lobby_video_placeholder@3x.png"; sourceTree = "<group>"; };
+		324880EE21D7755D002220C8 /* mini_video_lobby_option_button_selected_triangle@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mini_video_lobby_option_button_selected_triangle@3x.png"; sourceTree = "<group>"; };
+		324880EF21D7755D002220C8 /* mini_video_lobby_play_count@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mini_video_lobby_play_count@3x.png"; sourceTree = "<group>"; };
+		324880F021D7755D002220C8 /* mini_video_lobby_play_button@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mini_video_lobby_play_button@3x.png"; sourceTree = "<group>"; };
+		324880F121D7755D002220C8 /* mini_video_lobby_mask@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mini_video_lobby_mask@3x.png"; sourceTree = "<group>"; };
+		324880F221D7755D002220C8 /* mini_video_lobby_red_dot@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mini_video_lobby_red_dot@3x.png"; sourceTree = "<group>"; };
 		3257229121085BDE00C3D85A /* LiveRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3257229421085BDE00C3D85A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3257229521085BDE00C3D85A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -109,6 +157,29 @@
 		32B22D4C2151488C00B2C140 /* LiveRoomTruthOrBraveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveRoomTruthOrBraveView.m; sourceTree = "<group>"; };
 		32B22D4D2151488C00B2C140 /* LiveRoomTruthOrBraveCountdownTimerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveRoomTruthOrBraveCountdownTimerView.h; sourceTree = "<group>"; };
 		32B22D4E2151488C00B2C140 /* LiveRoomTruthOrBraveQuestionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveRoomTruthOrBraveQuestionView.m; sourceTree = "<group>"; };
+		32DF904E21D5C964002700D1 /* LiveLobbyMainScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveLobbyMainScrollView.h; sourceTree = "<group>"; };
+		32DF904F21D5C964002700D1 /* LiveLobbyMainScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveLobbyMainScrollView.m; sourceTree = "<group>"; };
+		32DF905621D5D929002700D1 /* LiveLobbyMiniVideoListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveLobbyMiniVideoListView.h; sourceTree = "<group>"; };
+		32DF905721D5D929002700D1 /* LiveLobbyMiniVideoListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveLobbyMiniVideoListView.m; sourceTree = "<group>"; };
+		32DF905921D5D976002700D1 /* LiveLobbyHotsListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveLobbyHotsListView.h; sourceTree = "<group>"; };
+		32DF905A21D5D976002700D1 /* LiveLobbyHotsListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveLobbyHotsListView.m; sourceTree = "<group>"; };
+		32DF905D21D5FFEE002700D1 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		32DF905E21D5FFEE002700D1 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		32DF905F21D5FFEE002700D1 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		32DF906021D5FFEE002700D1 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		32DF906121D5FFEE002700D1 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		32DF906221D5FFEE002700D1 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		32DF906321D5FFEE002700D1 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		32DF906421D5FFEE002700D1 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		32DF906521D5FFEE002700D1 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		32DF906621D5FFEE002700D1 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		32DF906721D5FFEE002700D1 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		32DF906821D5FFEE002700D1 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		32DF906921D5FFEE002700D1 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		32DF907121D600CA002700D1 /* HttpEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpEngine.h; sourceTree = "<group>"; };
+		32DF907221D600CA002700D1 /* HttpEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpEngine.m; sourceTree = "<group>"; };
+		32DF907721D60131002700D1 /* HttpEngine+LiveLobby.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HttpEngine+LiveLobby.h"; sourceTree = "<group>"; };
+		32DF907821D60131002700D1 /* HttpEngine+LiveLobby.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HttpEngine+LiveLobby.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,8 +220,7 @@
 				32076E0B21537C7F00EB690D /* live_room_truthOrBrave_name_pink_bg@2x.png */,
 				32076E0C21537C7F00EB690D /* live_room_truthOrBrave_btn_vote_blue_n@3x.png */,
 			);
-			name = LiveRoomTruthOrBrave;
-			path = "../../../真心话大冒险/LiveRoomTruthOrBrave";
+			path = LiveRoomTruthOrBrave;
 			sourceTree = "<group>";
 		};
 		32076DF321537C7F00EB690D /* LiveRoomVideoCallListView */ = {
@@ -184,6 +254,42 @@
 			path = "@3x";
 			sourceTree = "<group>";
 		};
+		3234C34121D4AB5500B8FE0B /* LiveLobby */ = {
+			isa = PBXGroup;
+			children = (
+				3234C34221D4AEE900B8FE0B /* LiveLobbyViewController.h */,
+				3234C34321D4AEE900B8FE0B /* LiveLobbyViewController.m */,
+				3234C34521D4B1BA00B8FE0B /* http */,
+				324880DB21D712E3002220C8 /* model */,
+				3234C34621D4B5BC00B8FE0B /* view */,
+			);
+			name = LiveLobby;
+			path = LiveRoom/LiveLobby;
+			sourceTree = "<group>";
+		};
+		3234C34521D4B1BA00B8FE0B /* http */ = {
+			isa = PBXGroup;
+			children = (
+				32DF907721D60131002700D1 /* HttpEngine+LiveLobby.h */,
+				32DF907821D60131002700D1 /* HttpEngine+LiveLobby.m */,
+			);
+			path = http;
+			sourceTree = "<group>";
+		};
+		3234C34621D4B5BC00B8FE0B /* view */ = {
+			isa = PBXGroup;
+			children = (
+				32DF904E21D5C964002700D1 /* LiveLobbyMainScrollView.h */,
+				32DF904F21D5C964002700D1 /* LiveLobbyMainScrollView.m */,
+				32DF905521D5D521002700D1 /* LiveLobbyMiniVideoListView */,
+				32DF905221D5D51B002700D1 /* LiveLobbyHotsListView */,
+				32DF905121D5D51B002700D1 /* LiveLobbyFollowListView */,
+				32DF905321D5D51B002700D1 /* LiveLobbyGoodVoiceListView */,
+				32DF905421D5D521002700D1 /* LiveLobbyUniversalListView */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		3240ECA8216A48AC00A93411 /* PersonalVoiceCallRoomSeat */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,12 +308,65 @@
 			path = TruthOrBrave;
 			sourceTree = "<group>";
 		};
+		324880DB21D712E3002220C8 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				324880DC21D71338002220C8 /* LiveLobbyMiniVideoListData.h */,
+				324880DD21D71338002220C8 /* LiveLobbyMiniVideoListData.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		324880E221D7755D002220C8 /* LiveLobbyMiniVideo */ = {
+			isa = PBXGroup;
+			children = (
+				324880E321D7755D002220C8 /* @2x */,
+				324880EB21D7755D002220C8 /* @3x */,
+			);
+			path = LiveLobbyMiniVideo;
+			sourceTree = "<group>";
+		};
+		324880E321D7755D002220C8 /* @2x */ = {
+			isa = PBXGroup;
+			children = (
+				324880E421D7755D002220C8 /* mini_video_lobby_video_placeholder@2x.png */,
+				324880E521D7755D002220C8 /* mini_video_lobby_play_icon_big@2x.png */,
+				324880E621D7755D002220C8 /* mini_video_lobby_play_count@2x.png */,
+				324880E721D7755D002220C8 /* mini_video_lobby_option_button_selected_triangle@2x.png */,
+				324880E821D7755D002220C8 /* mini_video_lobby_mask@2x.png */,
+				324880E921D7755D002220C8 /* mini_video_lobby_play_button@2x.png */,
+				324880EA21D7755D002220C8 /* mini_video_lobby_red_dot@2x.png */,
+			);
+			path = "@2x";
+			sourceTree = "<group>";
+		};
+		324880EB21D7755D002220C8 /* @3x */ = {
+			isa = PBXGroup;
+			children = (
+				324880EC21D7755D002220C8 /* mini_video_lobby_play_icon_big@3x.png */,
+				324880ED21D7755D002220C8 /* mini_video_lobby_video_placeholder@3x.png */,
+				324880EE21D7755D002220C8 /* mini_video_lobby_option_button_selected_triangle@3x.png */,
+				324880EF21D7755D002220C8 /* mini_video_lobby_play_count@3x.png */,
+				324880F021D7755D002220C8 /* mini_video_lobby_play_button@3x.png */,
+				324880F121D7755D002220C8 /* mini_video_lobby_mask@3x.png */,
+				324880F221D7755D002220C8 /* mini_video_lobby_red_dot@3x.png */,
+			);
+			path = "@3x";
+			sourceTree = "<group>";
+		};
 		3257228821085BDE00C3D85A = {
 			isa = PBXGroup;
 			children = (
+				32DF905C21D5FFEE002700D1 /* AFNetworking */,
 				327FABBA211C2C5400BF4D43 /* asset */,
+				327FABBB211C2C5A00BF4D43 /* 2(1).jpg */,
 				325722AA21085D7400C3D85A /* Public */,
+				325722B62108653B00C3D85A /* UIColor+xiuchang_iPhone.h */,
+				325722B72108653B00C3D85A /* UIColor+xiuchang_iPhone.m */,
+				325722AC21085DE700C3D85A /* ModelLocator.h */,
+				325722AD21085DE700C3D85A /* ModelLocator.m */,
 				3257229321085BDE00C3D85A /* LiveRoom */,
+				3234C34121D4AB5500B8FE0B /* LiveLobby */,
 				325722AF21085F9000C3D85A /* JJCC */,
 				3257229221085BDE00C3D85A /* Products */,
 			);
@@ -240,10 +399,7 @@
 		325722AA21085D7400C3D85A /* Public */ = {
 			isa = PBXGroup;
 			children = (
-				325722B62108653B00C3D85A /* UIColor+xiuchang_iPhone.h */,
-				325722B72108653B00C3D85A /* UIColor+xiuchang_iPhone.m */,
-				325722AC21085DE700C3D85A /* ModelLocator.h */,
-				325722AD21085DE700C3D85A /* ModelLocator.m */,
+				32DF907021D60087002700D1 /* http */,
 			);
 			name = Public;
 			path = LiveRoom/Public;
@@ -264,7 +420,7 @@
 		327FABBA211C2C5400BF4D43 /* asset */ = {
 			isa = PBXGroup;
 			children = (
-				327FABBB211C2C5A00BF4D43 /* 2(1).jpg */,
+				324880E221D7755D002220C8 /* LiveLobbyMiniVideo */,
 				32076DEB21537C7F00EB690D /* LiveRoomTruthOrBrave */,
 			);
 			name = asset;
@@ -283,6 +439,76 @@
 			);
 			name = TruthOrBrave;
 			path = "../../../真心话大冒险/TruthOrBrave";
+			sourceTree = "<group>";
+		};
+		32DF905121D5D51B002700D1 /* LiveLobbyFollowListView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LiveLobbyFollowListView;
+			sourceTree = "<group>";
+		};
+		32DF905221D5D51B002700D1 /* LiveLobbyHotsListView */ = {
+			isa = PBXGroup;
+			children = (
+				32DF905921D5D976002700D1 /* LiveLobbyHotsListView.h */,
+				32DF905A21D5D976002700D1 /* LiveLobbyHotsListView.m */,
+			);
+			path = LiveLobbyHotsListView;
+			sourceTree = "<group>";
+		};
+		32DF905321D5D51B002700D1 /* LiveLobbyGoodVoiceListView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LiveLobbyGoodVoiceListView;
+			sourceTree = "<group>";
+		};
+		32DF905421D5D521002700D1 /* LiveLobbyUniversalListView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LiveLobbyUniversalListView;
+			sourceTree = "<group>";
+		};
+		32DF905521D5D521002700D1 /* LiveLobbyMiniVideoListView */ = {
+			isa = PBXGroup;
+			children = (
+				32DF905621D5D929002700D1 /* LiveLobbyMiniVideoListView.h */,
+				32DF905721D5D929002700D1 /* LiveLobbyMiniVideoListView.m */,
+				324880DF21D74D8D002220C8 /* LiveLobbyMiniVideoListViewCell.h */,
+				324880E021D74D8D002220C8 /* LiveLobbyMiniVideoListViewCell.m */,
+			);
+			path = LiveLobbyMiniVideoListView;
+			sourceTree = "<group>";
+		};
+		32DF905C21D5FFEE002700D1 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				32DF905D21D5FFEE002700D1 /* AFSecurityPolicy.h */,
+				32DF905E21D5FFEE002700D1 /* AFNetworkReachabilityManager.h */,
+				32DF905F21D5FFEE002700D1 /* AFURLSessionManager.h */,
+				32DF906021D5FFEE002700D1 /* AFURLRequestSerialization.h */,
+				32DF906121D5FFEE002700D1 /* AFURLResponseSerialization.m */,
+				32DF906221D5FFEE002700D1 /* AFHTTPSessionManager.m */,
+				32DF906321D5FFEE002700D1 /* AFURLResponseSerialization.h */,
+				32DF906421D5FFEE002700D1 /* AFURLSessionManager.m */,
+				32DF906521D5FFEE002700D1 /* AFURLRequestSerialization.m */,
+				32DF906621D5FFEE002700D1 /* AFNetworking.h */,
+				32DF906721D5FFEE002700D1 /* AFNetworkReachabilityManager.m */,
+				32DF906821D5FFEE002700D1 /* AFSecurityPolicy.m */,
+				32DF906921D5FFEE002700D1 /* AFHTTPSessionManager.h */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		32DF907021D60087002700D1 /* http */ = {
+			isa = PBXGroup;
+			children = (
+				32DF907121D600CA002700D1 /* HttpEngine.h */,
+				32DF907221D600CA002700D1 /* HttpEngine.m */,
+			);
+			path = http;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -344,23 +570,36 @@
 			files = (
 				32076E1C21537C7F00EB690D /* live_room_truthOrBrave_progressBar_pink@2x.png in Resources */,
 				32076E2921537C7F00EB690D /* live_room_truthOrBrave_name_pink_bg@2x.png in Resources */,
+				324880F821D7755D002220C8 /* mini_video_lobby_play_button@2x.png in Resources */,
 				32076E2521537C7F00EB690D /* live_room_truthOrBrave_btn_vote_blue_h@2x.png in Resources */,
 				32076E1821537C7F00EB690D /* live_room_video_call_list_cell_btn_refuse_n@3x.png in Resources */,
 				32076E2721537C7F00EB690D /* live_room_truthOrBrave_btn_vote_blue_n@2x.png in Resources */,
 				32076E0F21537C7F00EB690D /* live_room_truthOrBrave_btn_vote_pink_h@3x.png in Resources */,
+				324880F921D7755D002220C8 /* mini_video_lobby_red_dot@2x.png in Resources */,
+				324880F421D7755D002220C8 /* mini_video_lobby_play_icon_big@2x.png in Resources */,
 				325722A121085BE200C3D85A /* LaunchScreen.storyboard in Resources */,
+				324880F721D7755D002220C8 /* mini_video_lobby_mask@2x.png in Resources */,
 				32076E1521537C7F00EB690D /* live_room_video_call_list_cell_btn_refuse_n@2x.png in Resources */,
+				324880F521D7755D002220C8 /* mini_video_lobby_play_count@2x.png in Resources */,
 				32076E2121537C7F00EB690D /* live_room_truthOrBrave_progressBar_blue@3x.png in Resources */,
 				32076E0E21537C7F00EB690D /* live_room_truthOrBrave_title@3x.png in Resources */,
+				324880FC21D7755D002220C8 /* mini_video_lobby_option_button_selected_triangle@3x.png in Resources */,
 				32076E2A21537C7F00EB690D /* live_room_truthOrBrave_btn_vote_blue_n@3x.png in Resources */,
 				32076E1721537C7F00EB690D /* live_room_video_call_list_topBar_wait_BG@2x.png in Resources */,
+				324880F321D7755D002220C8 /* mini_video_lobby_video_placeholder@2x.png in Resources */,
 				32076E1621537C7F00EB690D /* live_room_video_call_list_cell_btn_agree_n@2x.png in Resources */,
 				32076E2021537C7F00EB690D /* live_room_truthOrBrave_countdown_timer_bg@2x.png in Resources */,
 				32076E1A21537C7F00EB690D /* live_room_video_call_list_cell_btn_agree_n@3x.png in Resources */,
+				324880FA21D7755D002220C8 /* mini_video_lobby_play_icon_big@3x.png in Resources */,
+				3248810021D7755D002220C8 /* mini_video_lobby_red_dot@3x.png in Resources */,
 				32076E2421537C7F00EB690D /* live_room_truthOrBrave_btn_vote_pink_n@2x.png in Resources */,
 				32076E1E21537C7F00EB690D /* live_room_truthOrBrave_name_blue_bg@2x.png in Resources */,
+				324880FE21D7755D002220C8 /* mini_video_lobby_play_button@3x.png in Resources */,
+				324880FB21D7755D002220C8 /* mini_video_lobby_video_placeholder@3x.png in Resources */,
+				324880FD21D7755D002220C8 /* mini_video_lobby_play_count@3x.png in Resources */,
 				32076E1921537C7F00EB690D /* live_room_video_call_list_topBar_success_BG@3x.png in Resources */,
 				3257229E21085BE200C3D85A /* Assets.xcassets in Resources */,
+				324880FF21D7755D002220C8 /* mini_video_lobby_mask@3x.png in Resources */,
 				32076E1B21537C7F00EB690D /* live_room_video_call_list_topBar_wait_BG@3x.png in Resources */,
 				32076E2321537C7F00EB690D /* live_room_truthOrBrave_progressBar_pink@3x.png in Resources */,
 				32076E2621537C7F00EB690D /* live_room_truthOrBrave_btn_vote_blue_h@3x.png in Resources */,
@@ -375,6 +614,7 @@
 				32076E1221537C7F00EB690D /* live_room_truthOrBrave_prepare_bg@3x.png in Resources */,
 				32076E1F21537C7F00EB690D /* live_room_truthOrBrave_countdown_timer_bg@3x.png in Resources */,
 				3257229C21085BDE00C3D85A /* Main.storyboard in Resources */,
+				324880F621D7755D002220C8 /* mini_video_lobby_option_button_selected_triangle@2x.png in Resources */,
 				327FABBC211C2C5A00BF4D43 /* 2(1).jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,14 +626,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32DF906C21D5FFEE002700D1 /* AFURLSessionManager.m in Sources */,
+				3234C34421D4AEE900B8FE0B /* LiveLobbyViewController.m in Sources */,
+				32DF907321D600CA002700D1 /* HttpEngine.m in Sources */,
 				3257229921085BDE00C3D85A /* ViewController.m in Sources */,
+				324880E121D74D8D002220C8 /* LiveLobbyMiniVideoListViewCell.m in Sources */,
 				3240ECAC216A48FF00A93411 /* PersonalVoiceRoomSeatView.m in Sources */,
 				325722A421085BE200C3D85A /* main.m in Sources */,
+				32DF906E21D5FFEE002700D1 /* AFNetworkReachabilityManager.m in Sources */,
+				32DF906A21D5FFEE002700D1 /* AFURLResponseSerialization.m in Sources */,
 				325722B52108600600C3D85A /* AppDelegate+JJC.m in Sources */,
 				32B22D4F2151488D00B2C140 /* LiveRoomTruthOrBraveCountdownTimerView.m in Sources */,
+				32DF907921D60131002700D1 /* HttpEngine+LiveLobby.m in Sources */,
+				32DF906B21D5FFEE002700D1 /* AFHTTPSessionManager.m in Sources */,
+				32DF906D21D5FFEE002700D1 /* AFURLRequestSerialization.m in Sources */,
 				325722B82108653B00C3D85A /* UIColor+xiuchang_iPhone.m in Sources */,
+				32DF905021D5C964002700D1 /* LiveLobbyMainScrollView.m in Sources */,
 				32B22D502151488D00B2C140 /* LiveRoomTruthOrBraveView.m in Sources */,
+				32DF905821D5D929002700D1 /* LiveLobbyMiniVideoListView.m in Sources */,
 				325722AE21085DE700C3D85A /* ModelLocator.m in Sources */,
+				324880DE21D71338002220C8 /* LiveLobbyMiniVideoListData.m in Sources */,
+				32DF906F21D5FFEE002700D1 /* AFSecurityPolicy.m in Sources */,
+				32DF905B21D5D976002700D1 /* LiveLobbyHotsListView.m in Sources */,
 				3257229621085BDE00C3D85A /* AppDelegate.m in Sources */,
 				32B22D512151488D00B2C140 /* LiveRoomTruthOrBraveQuestionView.m in Sources */,
 			);
@@ -538,6 +792,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SR4ZEKCW75;
 				INFOPLIST_FILE = LiveRoom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -555,6 +810,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SR4ZEKCW75;
 				INFOPLIST_FILE = LiveRoom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

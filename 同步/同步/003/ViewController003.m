@@ -54,7 +54,7 @@
 //    [_lblCountdownTimer sizeToFit];
     _lblCountdownTimer.center = CGPointMake(SCREEN_WIDTH/2, 250);
     [self.view addSubview:_lblCountdownTimer];
-    
+        
 }
 
 - (void)onStartAction {

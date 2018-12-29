@@ -10,22 +10,6 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../&#x771f;&#x5fc3;&#x8bdd;&#x5927;&#x5192;&#x9669;/PersonalVoiceCallRoomSeat/TruthOrBrave/PersonalVoiceRoomSeatView.m"
-            timestampString = "560614035.7091939"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
-            landmarkName = "-initWithFrame:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../&#x771f;&#x5fc3;&#x8bdd;&#x5927;&#x5192;&#x9669;/PersonalVoiceCallRoomSeat/TruthOrBrave/PersonalVoiceRoomSeatView.m"
             timestampString = "560614036.789497"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -33,6 +17,38 @@
             endingLineNumber = "14"
             landmarkName = "userViewRight"
             landmarkType = "24">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PersonalVoiceRoomSeatView userViewRight]"
+                  moduleName = "LiveRoom"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jiachen/Desktop/%E5%90%8C%E6%AD%A5/%E7%9C%9F%E5%BF%83%E8%AF%9D%E5%A4%A7%E5%86%92%E9%99%A9/PersonalVoiceCallRoomSeat/TruthOrBrave/PersonalVoiceRoomSeatView.m"
+                  timestampString = "567748784.95801"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PersonalVoiceRoomSeatView setUserViewRight:]"
+                  moduleName = "LiveRoom"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jiachen/Desktop/%E5%90%8C%E6%AD%A5/%E7%9C%9F%E5%BF%83%E8%AF%9D%E5%A4%A7%E5%86%92%E9%99%A9/PersonalVoiceCallRoomSeat/TruthOrBrave/PersonalVoiceRoomSeatView.m"
+                  timestampString = "567748784.961748"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "59">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

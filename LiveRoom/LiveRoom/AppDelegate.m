@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "ViewController.h"
 #import "AppDelegate+JJC.h"
+#import "LiveLobbyViewController.h"
 
 @interface AppDelegate ()
 @property (strong, nonatomic) UINavigationController *navigationController;
@@ -23,8 +24,11 @@
     
     [self jjc_applicationDidFinishLaunching];
     
-    self.vc = [[ViewController alloc] init];
-    self.navigationController = [[UINavigationController alloc] initWithRootViewController:self.vc];
+//    self.vc = [[ViewController alloc] init];
+//    self.navigationController = [[UINavigationController alloc] initWithRootViewController:self.vc];
+    
+    LiveLobbyViewController *vc = [[LiveLobbyViewController alloc] init];
+    self.navigationController = [[UINavigationController alloc] initWithRootViewController:vc];
     
     self.window = [UIWindow new];
     [self.window makeKeyAndVisible];
